@@ -1,72 +1,108 @@
 # Hi, I'm Jayant Bhatia 👋
 
-### 🚀 AI Engineer | Generative AI | Data Analytics
+### 🚀 Data Analyst | AI & Generative AI Enthusiast | Software Engineer
 
-I design and build intelligent applications using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and data-driven systems.
-With a foundation in software development, I focus on solving real-world problems through scalable AI and analytics solutions.
-
----
-
-## 🧠 Featured AI / GenAI Projects
-
-🔹 **RAG-based Intelligent Chatbot**
-Built a context-aware chatbot using LangChain and LLMs to retrieve and generate accurate responses from custom data sources.
-
-🔹 **LLM Agent Automation System**
-Developed an AI agent capable of multi-step reasoning and task execution using modern agent frameworks.
-
-🔹 **AI-Powered Applications**
-Integrated APIs and LLMs to create real-world automation and intelligent workflows.
+I specialize in transforming raw data into meaningful insights and building intelligent solutions that solve real-world business problems.
+With a background in software development and growing expertise in AI, I focus on combining **data analytics, automation, and AI-driven technologies** to create scalable and impactful applications.
 
 ---
 
-## 📊 Data Analytics Projects
+## 📊 Core Expertise
 
-🔹 **Sales & Business Dashboard**
-Designed interactive dashboards to track KPIs and business performance using data visualization tools.
+### 🔹 Data Analytics & Business Intelligence
 
-🔹 **Exploratory Data Analysis (EDA)**
-Performed in-depth analysis using Python (Pandas, NumPy) to extract trends and actionable insights.
+* Data Cleaning & Transformation
+* Exploratory Data Analysis (EDA)
+* KPI Tracking & Business Reporting
+* Dashboard Development & Data Visualization
+* Insight Generation for Decision Making
+
+### 🔹 AI & Generative AI
+
+* Large Language Models (LLMs)
+* Retrieval-Augmented Generation (RAG)
+* Prompt Engineering
+* AI Agents & Automation
+* LangChain-Based Applications
+
+---
+
+## 💼 Featured Projects
+
+### 📈 Sales & Business Performance Dashboard
+
+Built interactive dashboards to monitor sales trends, KPIs, customer behavior, and business performance using visualization and analytics tools.
+
+### 📊 Exploratory Data Analysis (EDA)
+
+Performed data analysis using Python, Pandas, and NumPy to uncover trends, optimize reporting, and generate actionable insights from structured datasets.
+
+### 🤖 RAG-Based Intelligent Chatbot
+
+Developed a context-aware chatbot using LangChain and LLMs capable of retrieving accurate information from custom knowledge bases.
+
+### ⚡ AI Agent Automation System
+
+Created an AI-powered agent capable of multi-step reasoning, workflow automation, and intelligent task execution.
 
 ---
 
 ## 🛠️ Technical Skills
 
-**AI / GenAI:**
-LLMs • LangChain • RAG • Prompt Engineering • AI Agents
+### Data Analytics
 
-**Data Analytics:**
-Python • Pandas • NumPy • SQL • Power BI / Tableau
+* Python
+* Pandas
+* NumPy
+* SQL
+* Power BI
+* Tableau
+* Data Visualization
+* Data Cleaning & Reporting
 
-**Development:**
-REST APIs • Git • Problem Solving
+### AI / Generative AI
+
+* LLMs
+* LangChain
+* RAG
+* Prompt Engineering
+* AI Agents
+
+### Development & Tools
+
+* REST APIs
+* Git & GitHub
+* Problem Solving
+* Analytical Thinking
 
 ---
 
 ## 🚀 Current Focus
 
-* Building production-ready GenAI applications
-* Exploring advanced LLM architectures and agent systems
-* Strengthening data analytics and visualization skills
+* Building data-driven business solutions
+* Strengthening expertise in analytics and visualization
+* Developing production-ready AI applications
+* Exploring advanced LLM and agentic AI systems
 
 ---
 
-## 💼 Background
+## 💼 Professional Background
 
-Previously worked as a Flutter Developer, building mobile applications with a focus on performance and user experience.
-Now transitioning into AI Engineering and Data Analytics with a strong product mindset.
+Previously worked as a Flutter Developer, building scalable mobile applications with a strong focus on performance and user experience.
+Currently transitioning into **Data Analytics and AI Engineering**, leveraging development experience to build practical and intelligent solutions.
 
 ---
 
 ## 📈 What I Bring
 
-✔ Ability to bridge **AI + Data + Development**
-✔ Strong problem-solving and analytical thinking
-✔ Focus on building **practical, real-world solutions**
+✔ Strong analytical and problem-solving mindset
+✔ Ability to bridge **Data + AI + Software Development**
+✔ Focus on practical, scalable, and business-oriented solutions
+✔ Passion for continuous learning and innovation
 
 ---
 
-## 📫 Let's Connect
+## 📫 Connect With Me
 
-* LinkedIn: https://linkedin.com/in/jayantbhatiaa
-* Email: [jayantbhatia44@gmail.com)
+* LinkedIn: [www.linkedin.com/in/jayantbhatiaa](http://www.linkedin.com/in/jayantbhatiaa)
+* Email: [jayantbhatia44@gmail.com](mailto:jayantbhatia44@gmail.com)
