@@ -1,12 +1,12 @@
 <div align="center">
 
-![banner](https://capsule-render.vercel.app/api?type=blur&color=0:000000,100:0d1f0d&height=200&section=header&text=JAYANT%20BHATIA&fontSize=42&fontColor=39FF14&desc=AI%20ENGINEER%20//%20systems%20that%20reason,%20retrieve%20%26%20act&descSize=14&descAlignY=68&fontAlignY=38&animation=fadeIn)
+![banner](https://capsule-render.vercel.app/api?type=blur&amp;color=0:000000,100:0d1f0d&amp;height=200&amp;section=header&amp;text=JAYANT%20BHATIA&amp;fontSize=42&amp;fontColor=39FF14&amp;desc=AI%20ENGINEER%20//%20systems%20that%20reason,%20retrieve%20%26%20act&amp;descSize=14&amp;descAlignY=68&amp;fontAlignY=38&amp;animation=fadeIn)
 
-![typing](https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=18&pause=1800&color=39FF14&center=true&vCenter=true&width=600&lines=%3E+building+LLM+systems+that+survive+production_;%3E+RAG+pipelines+.+AI+agents+.+LangChain_;%3E+ex-mobile+engineer+%7C+now+AI+engineer_)
+![typing](https://readme-typing-svg.demolab.com?font=Courier+New&amp;weight=700&amp;size=18&amp;pause=1800&amp;color=39FF14&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=%3E+building+LLM+systems+that+survive+production_;%3E+RAG+pipelines+.+AI+agents+.+LangChain_;%3E+ex-mobile+engineer+%7C+now+AI+engineer_)
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&logo=linkedin&logoColor=39FF14&labelColor=000000)](https://www.linkedin.com/in/jayantbhatiaa)
-[![Email](https://img.shields.io/badge/EMAIL-000000?style=flat-square&logo=gmail&logoColor=39FF14&labelColor=000000)](mailto:jayantbhatia44@gmail.com)
-[![GitHub](https://img.shields.io/badge/GITHUB-000000?style=flat-square&logo=github&logoColor=39FF14&labelColor=000000)](https://github.com/YOUR_GITHUB_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&amp;logo=linkedin&amp;logoColor=39FF14&amp;labelColor=000000)](https://www.linkedin.com/in/jayantbhatiaa)
+[![Email](https://img.shields.io/badge/EMAIL-000000?style=flat-square&amp;logo=gmail&amp;logoColor=39FF14&amp;labelColor=000000)](mailto:jayantbhatia44@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-000000?style=flat-square&amp;logo=github&amp;logoColor=39FF14&amp;labelColor=000000)](https://github.com/YOUR_GITHUB_USERNAME)
 
 </div>
 
@@ -90,7 +90,7 @@ Most engineers enter AI through research and learn production discipline the har
 ## `$ ls projects/`
 
 **`rag-chatbot/`** — Intelligent Chatbot (RAG)
-Retrieval-grounded Q&A over a custom knowledge base, built to minimize hallucination rather than just demo well on easy queries.
+Retrieval-grounded Q&amp;A over a custom knowledge base, built to minimize hallucination rather than just demo well on easy queries.
 Problem it solves: generic LLMs don't know your org's data, and naive RAG returns confident nonsense.
 `LangChain` `LLMs` `Vector Retrieval` `Prompt Engineering`
 
@@ -106,8 +106,8 @@ Problem it solves: most "AI automation" is one prompt in a trench coat. This rea
 | Domain | Tools |
 |---|---|
 | AI Engineering | LLMs · LangChain · RAG · Prompt Engineering · AI Agents |
-| Backend & APIs | Python · REST APIs |
-| Data & Query | SQL · Pandas · NumPy |
+| Backend &amp; APIs | Python · REST APIs |
+| Data &amp; Query | SQL · Pandas · NumPy |
 | Mobile (background) | Flutter · Dart |
 | Tooling | Git · GitHub |
 
@@ -153,8 +153,8 @@ Problem it solves: most "AI automation" is one prompt in a trench coat. This rea
 
 <div align="center">
 
-![stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=39FF14&icon_color=39FF14&text_color=39FF14)
-![streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=000000&ring=39FF14&fire=39FF14&currStreakLabel=39FF14)
+![stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;bg_color=000000&amp;title_color=39FF14&amp;icon_color=39FF14&amp;text_color=39FF14)
+![streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&amp;theme=dark&amp;hide_border=true&amp;background=000000&amp;ring=39FF14&amp;fire=39FF14&amp;currStreakLabel=39FF14)
 
 </div>
 
@@ -170,11 +170,11 @@ Problem it solves: most "AI automation" is one prompt in a trench coat. This rea
 └──────────────────────────────────────────────────────┘
 ```
 
-[![LinkedIn](https://img.shields.io/badge/CONNECT_ON_LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14&labelColor=000000)](https://www.linkedin.com/in/jayantbhatiaa)
-[![Email](https://img.shields.io/badge/EMAIL_ME-000000?style=for-the-badge&logo=gmail&logoColor=39FF14&labelColor=000000)](mailto:jayantbhatia44@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/CONNECT_ON_LINKEDIN-000000?style=for-the-badge&amp;logo=linkedin&amp;logoColor=39FF14&amp;labelColor=000000)](https://www.linkedin.com/in/jayantbhatiaa)
+[![Email](https://img.shields.io/badge/EMAIL_ME-000000?style=for-the-badge&amp;logo=gmail&amp;logoColor=39FF14&amp;labelColor=000000)](mailto:jayantbhatia44@gmail.com)
 
 <br/>
 
-![footer](https://capsule-render.vercel.app/api?type=blur&color=0:0d1f0d,100:000000&height=80&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=blur&amp;color=0:0d1f0d,100:000000&amp;height=80&amp;section=footer)
 
 </div>
