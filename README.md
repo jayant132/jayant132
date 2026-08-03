@@ -253,14 +253,48 @@ drwxr-xr-x  jayant132  agent-automation/
 
 <div align="center">
 
-### `$ ./run_diagnostics.sh --stats`
-
-<img src="https://github-readme-stats.vercel.app/api?username=jayant132&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=39FF14&icon_color=39FF14&text_color=c9c9c9" height="165"/>
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=jayant132&theme=dark&hide_border=true&background=00000000&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayant132&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=39FF14&text_color=c9c9c9" />
+### `$ ./skill_matrix.sh --verbose`
 
 </div>
+
+```
+┌─ proficiency.log ──────────────────────────────────────────────┐
+│                                                                  │
+│  LangChain / RAG Systems   ███████████████████░░░  85%          │
+│  LLM Agents (Google ADK)   ████████████████░░░░░░  75%          │
+│  Python                    ████████████████████░░  90%          │
+│  Prompt Engineering        ██████████████████░░░░  82%          │
+│  Cloud (AWS EC2 / Azure)   ███████████████░░░░░░░  70%          │
+│  Flutter / Dart            ███████████████████░░░  85%          │
+│  SQL / Data Pipelines      ████████████████░░░░░░  75%          │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+<sub>// self-assessed, updated as of Aug 2026 — adjust the bars to match you honestly</sub>
+
+<br/>
+
+<div align="center">
+
+### `$ git log --oneline --graph career.timeline`
+
+</div>
+
+```
+*  2026 ── status: hardening evaluation, targeting AI Engineer roles
+│
+*  2025 ── shipped agent-automation → multi-step autonomous agent (Google ADK)
+│
+*  2025 ── shipped rag-chatbot → hybrid retrieval + re-ranking + citations
+│
+*  2024 ── pip install langchain → began the shift into AI engineering
+│
+*  20XX ── flutter build --release → shipped production mobile apps
+│         (learned: every crash is your problem, in prod, not a notebook)
+```
+
+<sub>// swap in your real years — this is the shape, not the exact dates</sub>
 
 <br/>
 
