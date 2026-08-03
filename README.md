@@ -256,7 +256,7 @@ drwxr-xr-x  jayant132  agent-automation/
 ### `$ ./run_diagnostics.sh --stats`
 
 <img src="https://github-readme-stats.vercel.app/api?username=jayant132&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=39FF14&icon_color=39FF14&text_color=c9c9c9" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jayant132&theme=dark&hide_border=true&background=00000000&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" height="165"/>
+<img src="https://streak-stats.demolab.com/?user=jayant132&theme=dark&hide_border=true&background=00000000&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" height="165"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayant132&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=39FF14&text_color=c9c9c9" />
 
