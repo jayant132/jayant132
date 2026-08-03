@@ -87,7 +87,6 @@
               to clarification instead of guessing."
 ```
 
-<sub>// this is the actual decision tree behind rag-chatbot and agent-automation — not a mockup</sub>
 
 <br/>
 
@@ -163,7 +162,6 @@
  Monitoring & Fallback Logs
 ```
 
-<sub>// design choices, not defaults — re-ranking exists because naive top-k retrieval returned plausible-but-wrong context. the fallback branch exists on purpose.</sub>
 
 <br/>
 
@@ -271,7 +269,6 @@ drwxr-xr-x  jayant132  agent-automation/
 └──────────────────────────────────────────────────────────────────┘
 ```
 
-<sub>// self-assessed, updated as of Aug 2026 — adjust the bars to match you honestly</sub>
 
 <br/>
 
@@ -290,11 +287,10 @@ drwxr-xr-x  jayant132  agent-automation/
 │
 *  2024 ── pip install langchain → began the shift into AI engineering
 │
-*  20XX ── flutter build --release → shipped production mobile apps
+*  2023 ── flutter build --release → shipped production mobile apps
 │         (learned: every crash is your problem, in prod, not a notebook)
 ```
 
-<sub>// swap in your real years — this is the shape, not the exact dates</sub>
 
 <br/>
 
@@ -315,6 +311,5 @@ drwxr-xr-x  jayant132  agent-automation/
 
 <br/>
 
-<sub>// end of transmission</sub>
 
 </div>
