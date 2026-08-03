@@ -9,11 +9,15 @@
  ╚════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝       ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝╚═╝  ╚═╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=1200&color=39FF14&center=true&vCenter=true&width=650&lines=AI+Engineer+%7C+RAG+Pipelines+%2B+Autonomous+Agents;booting+production-grade+LLM+systems...;ex-Flutter+dev+%7C+still+obsessed+with+what+breaks;status%3A+open_to_work+%3D%3D+true;" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2800&pause=1200&color=39FF14&center=true&vCenter=true&width=680&lines=AI+Engineer+%7C+RAG+Pipelines+%2B+Autonomous+Agents;booting+production-grade+LLM+systems...;deploying+across+AWS+%2F+Azure+%2F+GCP...;ex-Flutter+dev+%7C+still+obsessed+with+what+breaks;status%3A+open_to_work+%3D%3D+true;" />
 
+**`github.com/jayant132`**
+
+<a href="https://github.com/jayant132"><img src="https://img.shields.io/badge/@jayant132-000000?style=for-the-badge&logo=github&logoColor=39FF14" /></a>
 <a href="https://www.linkedin.com/in/jayantbhatiaa"><img src="https://img.shields.io/badge/-LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14" /></a>
 <a href="mailto:jayantbhatia44@gmail.com"><img src="https://img.shields.io/badge/-EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=39FF14" /></a>
-<a href="https://github.com/jayant132"><img src="https://img.shields.io/badge/-GITHUB-000000?style=for-the-badge&logo=github&logoColor=39FF14" /></a>
+
+<img src="https://komarev.com/ghpvc/?username=jayant132&label=PROFILE+VIEWS&color=39FF14&style=for-the-badge&labelColor=000000" />
 
 </div>
 
@@ -23,10 +27,11 @@
 [  OK  ] Loading jayant_bhatia.profile
 [  OK  ] Mounting /projects
 [  OK  ] Initializing AI_ENGINEER module
-[  OK  ] Linking LangChain :: RAG :: Agents
-[  OK  ] Verifying production-readiness ....... PASS
-[  OK  ] Legacy module detected: flutter_dev.so (still loaded, not deprecated)
-[ INFO ] For recruiters: see boot summary below ↓
+[  OK  ] Linking LangChain :: RAG :: Google ADK :: Agents
+[  OK  ] Connecting cloud/aws-ec2 ................ UP
+[  OK  ] Connecting cloud/azure-data-factory ..... UP
+[  OK  ] Verifying production-readiness ......... PASS
+[ INFO ] Legacy module detected: flutter_dev.so (still loaded, not deprecated)
 [ READY ] system online. awaiting query_
 ```
 
@@ -39,21 +44,50 @@
 </div>
 
 ```
-              ▄▄▄▄▄▄▄▄▄▄▄                    jayant@ai-engineer
-           ▄██▀▀▀▀▀▀▀▀▀██▄                   ─────────────────
+              ▄▄▄▄▄▄▄▄▄▄▄                    jayant@ai-engineer  ~  @jayant132
+           ▄██▀▀▀▀▀▀▀▀▀██▄                   ────────────────────────────────
           ██▀   ▄▄▄▄▄   ▀██                  OS: Production Systems v2
          ██   ▄█▀▀▀▀▀█▄   ██                 Role: AI Engineer
         ██   ██   █   ██   ██                Shell: /bin/python3 + LangChain
-        ██   ██  ███  ██   ██                Focus: RAG · LLM Agents · Retrieval
-        ██   ▀█▄▄▄▄▄█▀   ██                  Background: Flutter / Dart (mobile)
-         ██▄   ▀▀▀▀▀   ▄██                   Philosophy: ship > demo
-          ▀██▄▄▄▄▄▄▄▄▄██▀                    Status: open_to_work → true
-             ▀▀▀▀▀▀▀▀▀                       Contact: jayantbhatia44@gmail.com
+        ██   ██  ███  ██   ██                Agent Framework: Google ADK
+        ██   ▀█▄▄▄▄▄█▀   ██                  Cloud: AWS EC2 · Azure Data Factory
+         ██▄   ▀▀▀▀▀   ▄██                   Background: Flutter / Dart (mobile)
+          ▀██▄▄▄▄▄▄▄▄▄██▀                    Philosophy: ship > demo
+             ▀▀▀▀▀▀▀▀▀                       Status: open_to_work → true
 ```
 
 <br/>
 
-> **⚡ recruiter_summary.txt** — I build production-grade RAG pipelines and autonomous LLM agents, not notebook demos. My Flutter background means I already know what "works for real users" costs — I bring that standard to every model, pipeline, and agent I ship.
+> **⚡ recruiter_summary.txt** — I build production-grade RAG pipelines and autonomous LLM agents, not notebook demos — deployed on real cloud infrastructure, not just `localhost`. My Flutter background means I already know what "works for real users" costs, and I bring that standard to every model, pipeline, and agent I ship.
+
+<br/>
+
+<div align="center">
+
+### `$ ./agent_demo.sh --trace`
+
+*a peek at how the agent actually thinks, not just what it outputs*
+
+</div>
+
+```
+› user     : "What changed in our refund policy this quarter?"
+
+› agent    : plan → needs current source-of-truth, not memory
+           ↳ tool_call: hybrid_retrieve(query="refund policy Q3 changes")
+           ↳ tool_call: rerank(top_k=25 → top_k=5)
+           ↳ checking: are results grounded above confidence threshold?
+           ↳ result   : YES (4/5 chunks agree, 1 outlier discarded)
+
+› agent    : "Refund window extended 14 → 30 days, effective Q3.
+              Source: policy_v4.pdf, §2.1 [confidence: high]"
+
+› agent    : if confidence had been LOW →
+           ↳ fallback: "I don't have a grounded answer — escalating
+              to clarification instead of guessing."
+```
+
+<sub>// this is the actual decision tree behind rag-chatbot and agent-automation — not a mockup</sub>
 
 <br/>
 
@@ -91,7 +125,7 @@
  Fallback / Clarify   ◄── I'd rather say "I don't know" than hallucinate
 ```
 
-**Agent Reasoning Loop — plans before it acts**
+**Agent Reasoning Loop — plans before it acts (Google ADK)**
 
 ```
  Goal Received
@@ -109,6 +143,24 @@
                                 │
                                 ▼
                          Return Result
+```
+
+**Deployment Path — code to cloud**
+
+```
+ Local Dev
+     │
+     ▼
+ Containerize
+     │
+     ▼
+ AWS EC2 ──────► Serving Layer (agent / RAG API)
+     │
+     ▼
+ Azure Data Factory ──► ETL / pipeline scheduling
+     │                       for retrieval-source freshness
+     ▼
+ Monitoring & Fallback Logs
 ```
 
 <sub>// design choices, not defaults — re-ranking exists because naive top-k retrieval returned plausible-but-wrong context. the fallback branch exists on purpose.</sub>
@@ -131,9 +183,9 @@ drwxr-xr-x  jayant132  rag-chatbot/
 ```
 drwxr-xr-x  jayant132  agent-automation/
 ```
-**AI Agent Automation System** — An autonomous agent that plans across multiple steps, selects tools, and executes workflows with minimal human input.
+**AI Agent Automation System** — An autonomous agent (built on Google ADK) that plans across multiple steps, selects tools, and executes workflows with minimal human input.
 `> problem:` most "AI automation" is one prompt in a trench coat. This reasons about what to do next, not just what to say next.
-`AI Agents` `Tool Use` `LLM Orchestration` `APIs` · [`git clone →`](https://github.com/jayant132)
+`Google ADK` `AI Agents` `Tool Use` `LLM Orchestration` `APIs` · [`git clone →`](https://github.com/jayant132)
 
 <sub>💡 swap in your real repo URLs once pushed</sub>
 
@@ -143,20 +195,21 @@ drwxr-xr-x  jayant132  agent-automation/
 
 ### `$ cat /proc/stack`
 
-<img src="https://skillicons.dev/icons?i=python,langchain,flutter,dart,git,github,vscode,postgres&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,langchain,aws,azure,gcp,flutter,dart,git,github,postgres&theme=dark" />
 
 </div>
 
 <br/>
 
 ```
-┌─ stack.json ────────────────────────────────────────────────┐
-│  AI Engineering    │ LLMs · LangChain · RAG · Prompt Eng ·   │
-│                     │ AI Agents                               │
-│  Backend & APIs    │ Python · REST APIs                      │
-│  Data & Query      │ SQL · Pandas · NumPy                    │
-│  Also fluent in    │ Flutter · Dart                          │
-└────────────────────────────────────────────────────────────┘
+┌─ stack.json ──────────────────────────────────────────────────────┐
+│  AI Engineering    │ LLMs · LangChain · Google ADK · RAG ·         │
+│                     │ Prompt Engineering · AI Agents                │
+│  Backend & APIs    │ Python · REST APIs · Microservices             │
+│  Cloud & Infra      │ Amazon EC2 · Azure Data Factory · Docker      │
+│  Data & Query      │ SQL · Pandas · NumPy                           │
+│  Also fluent in    │ Flutter · Dart                                 │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
@@ -187,10 +240,11 @@ drwxr-xr-x  jayant132  agent-automation/
 <br/>
 
 ```
-> hybrid retrieval        — dense + sparse search for better recall
-> agent evaluation        — past "worked once" toward measurable reliability
+> hybrid retrieval         — dense + sparse search for better recall
+> agent evaluation         — past "worked once" toward measurable reliability
 > multi-agent coordination — where one agent's context window bottlenecks
-> cost-aware architecture — same quality, lower latency and spend
+> cost-aware architecture  — same quality, lower latency and spend on EC2
+> pipeline scheduling      — Azure Data Factory for retrieval-source freshness
 ```
 
 </details>
@@ -221,6 +275,7 @@ drwxr-xr-x  jayant132  agent-automation/
 └──────────────────────────────────────────────────────────┘
 ```
 
+<a href="https://github.com/jayant132"><img src="https://img.shields.io/badge/@jayant132-000000?style=for-the-badge&logo=github&logoColor=39FF14" /></a>
 <a href="https://www.linkedin.com/in/jayantbhatiaa"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14" /></a>
 <a href="mailto:jayantbhatia44@gmail.com"><img src="https://img.shields.io/badge/EMAIL_ME-000000?style=for-the-badge&logo=gmail&logoColor=39FF14" /></a>
 
