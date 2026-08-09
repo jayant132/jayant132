@@ -2,9 +2,9 @@
 
 # JAYANT BHATIA
 
-### AI ENGINEER · GENERATIVE AI · RAG · AI AGENTS
+### AI ENGINEER | GENERATIVE AI | MACHINE LEARNING | AI AGENTS
 
-**I build AI-powered systems that connect LLMs with retrieval, tools, data and production infrastructure.**
+**Building intelligent systems from models and data to real-world applications.**
 
 <br/>
 
@@ -12,10 +12,10 @@
 <img src="https://img.shields.io/badge/GitHub-jayant132-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 <a href="https://www.linkedin.com/in/jayantbhatiaa">
-<img src="https://img.shields.io/badge/LinkedIn-Jayant_Bhatia-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="mailto:jayantbhatia44@gmail.com">
-<img src="https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <br/><br/>
@@ -26,383 +26,396 @@
 
 ---
 
-# `01` — ABOUT ME
+## `> WHO I AM`
 
-I'm an **AI Engineer** focused on building practical Generative AI systems.
+I'm an **AI Engineer** focused on building practical AI and machine learning systems.
 
-My work sits at the intersection of:
+My work spans:
+
+**Generative AI · LLM Applications · RAG · AI Agents · NLP · Machine Learning · Computer Vision · Python · Data Pipelines · Cloud**
+
+I enjoy working on the complete path from:
 
 ```text
-              ┌──────────────────────────┐
-              │       AI ENGINEERING     │
-              └────────────┬─────────────┘
-                           │
-        ┌──────────────────┼──────────────────┐
-        ▼                  ▼                  ▼
-      LLMs               RAG              AI AGENTS
-        │                  │                  │
-        ▼                  ▼                  ▼
-   Prompting          Retrieval          Tool Calling
-   Evaluation         Embeddings         Orchestration
-   Model APIs         Re-ranking         Workflows
-        │                  │                  │
-        └──────────────────┼──────────────────┘
-                           ▼
-                  Production Applications
+Problem
+   ↓
+Data
+   ↓
+Model / LLM
+   ↓
+Retrieval / Reasoning
+   ↓
+Application
+   ↓
+Evaluation
+   ↓
+Deployment
 ```
 
-I care about more than making an LLM generate an answer.
+My goal is not simply to make models produce outputs.
 
-I focus on building systems that are:
-
-**Grounded · Evaluatable · Maintainable · Deployable · Useful**
+**I build systems that solve problems.**
 
 ---
 
-# `02` — WHAT I BUILD
+# `01` — FEATURED WORK
 
-### 🤖 Generative AI Systems
+<table>
+<tr>
 
-LLM-powered applications designed around real workflows rather than simple prompt wrappers.
+<td width="33%" valign="top">
+
+### ✈️ Multi-Agent Flight Booking
+
+**AI-powered flight booking assistant using multiple specialized agents.**
+
+`AI Agents`
+`LLMs`
+`Tool Calling`
+`Agent Orchestration`
+`Python`
+
+<br/>
+
+<a href="https://github.com/jayant132/Multi-Agent-AI-Flight-Booking-Assistant-">
+<strong>VIEW PROJECT →</strong>
+</a>
+
+</td>
+
+<td width="33%" valign="top">
+
+### 🧾 Invoice Intelligence
+
+**End-to-end ML system for freight cost prediction and invoice risk detection.**
+
+`Python`
+`Scikit-learn`
+`Pandas`
+`SQLite`
+`Random Forest`
+
+<br/>
+
+<a href="https://github.com/jayant132/Invoice-Intelligence-ML-Project">
+<strong>VIEW PROJECT →</strong>
+</a>
+
+</td>
+
+<td width="33%" valign="top">
+
+### 🫁 Tuberculosis Detection
+
+**Machine learning project for tuberculosis detection from chest X-ray data.**
+
+`Python`
+`Machine Learning`
+`Computer Vision`
+`Model Evaluation`
+
+<br/>
+
+<a href="https://github.com/jayant132/Tuberculosis-Detection-ML">
+<strong>VIEW PROJECT →</strong>
+</a>
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# `02` — AI ENGINEERING
+
+### 🤖 Generative AI
+
+Building applications around LLMs rather than treating the model as the entire product.
+
+* LLM applications
+* Prompt engineering
+* Context management
+* AI workflows
+* Tool calling
+* Agent orchestration
 
 ### 🔎 Retrieval-Augmented Generation
 
-Knowledge-grounded applications using document processing, embeddings, vector retrieval, context construction and source-aware generation.
+Building systems that connect LLMs with external knowledge.
+
+* Document processing
+* Chunking
+* Embeddings
+* Vector retrieval
+* Context construction
+* Grounded generation
 
 ### 🧠 AI Agents
 
-Agents capable of planning, selecting tools, executing actions and completing multi-step workflows.
+Designing agents that can reason through tasks and interact with tools.
 
-### ⚙️ AI Automation
-
-AI systems that connect models with APIs, tools, business logic and external services.
-
-### ☁️ AI Infrastructure
-
-Python services, APIs, containers and cloud infrastructure for taking AI applications beyond local notebooks.
+* Planning
+* Tool selection
+* Tool execution
+* Multi-step workflows
+* Agent state
+* Failure handling
 
 ---
 
-# `03` — TECH STACK
+# `03` — MACHINE LEARNING
+
+My ML work covers the complete workflow:
+
+```text
+Raw Data
+   ↓
+Exploration
+   ↓
+Feature Engineering
+   ↓
+Preprocessing
+   ↓
+Model Training
+   ↓
+Model Comparison
+   ↓
+Evaluation
+   ↓
+Inference
+```
+
+### Areas
+
+**Supervised Learning · Classification · Regression · NLP · Computer Vision · Feature Engineering · Model Evaluation**
+
+---
+
+# `04` — TECH STACK
 
 <div align="center">
 
-### AI / GENERATIVE AI
+### LANGUAGES
 
-<img src="https://img.shields.io/badge/LLMs-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RAG-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AI_Agents-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LangChain-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Google_ADK-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Prompt_Engineering-111111?style=for-the-badge"/>
+<img src="https://skillicons.dev/icons?i=python,sql,dart,javascript&theme=dark"/>
 
-### MACHINE LEARNING / NLP
+### AI / ML
 
-<img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python"/>
-<img src="https://img.shields.io/badge/Scikit--learn-111111?style=for-the-badge&logo=scikit-learn"/>
-<img src="https://img.shields.io/badge/NLTK-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Pandas-111111?style=for-the-badge&logo=pandas"/>
-<img src="https://img.shields.io/badge/NumPy-111111?style=for-the-badge&logo=numpy"/>
+<img src="https://skillicons.dev/icons?i=python&theme=dark"/>
 
-### BACKEND / DATA
+<br/>
 
-<img src="https://img.shields.io/badge/Python_APIs-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/REST_APIs-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/SQL-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/MySQL-111111?style=for-the-badge&logo=mysql"/>
-<img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql"/>
+`LLMs` `RAG` `AI Agents` `LangChain` `Google ADK`
+`Scikit-learn` `NLP` `Computer Vision` `Prompt Engineering`
+
+### DATA
+
+`Pandas` `NumPy` `SQL` `MySQL` `SQLite`
+
+### BACKEND
+
+`Python` `REST APIs` `API Integration` `Application Architecture`
 
 ### CLOUD / DEVOPS
 
-<img src="https://img.shields.io/badge/AWS_EC2-111111?style=for-the-badge&logo=amazon-aws"/>
-<img src="https://img.shields.io/badge/Azure-111111?style=for-the-badge&logo=microsoftazure"/>
-<img src="https://img.shields.io/badge/Azure_Data_Factory-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker"/>
-<img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git"/>
-<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github"/>
+<img src="https://skillicons.dev/icons?i=aws,azure,docker,git,github&theme=dark"/>
 
 ### APPLICATION DEVELOPMENT
 
-<img src="https://img.shields.io/badge/Flutter-111111?style=for-the-badge&logo=flutter"/>
-<img src="https://img.shields.io/badge/Dart-111111?style=for-the-badge&logo=dart"/>
-<img src="https://img.shields.io/badge/Firebase-111111?style=for-the-badge&logo=firebase"/>
+<img src="https://skillicons.dev/icons?i=flutter,dart,firebase&theme=dark"/>
 
 </div>
 
 ---
 
-# `04` — FEATURED AI PROJECTS
+# `05` — PROJECT DEEP DIVE
 
-## 🧠 Intelligent RAG Chatbot
+## ✈️ Multi-Agent AI Flight Booking Assistant
 
-### Retrieval-grounded AI assistant for custom knowledge bases
+**An agentic AI system designed around the flight-booking workflow.**
 
 ```text
-Documents
-    │
-    ▼
-Document Processing
-    │
-    ▼
-Chunking
-    │
-    ▼
-Embeddings
-    │
-    ▼
-Vector Retrieval
-    │
-    ▼
-Context Construction
-    │
-    ▼
-LLM Generation
-    │
-    ▼
-Grounded Response
+                 USER
+                  │
+                  ▼
+           AI ORCHESTRATOR
+                  │
+        ┌─────────┼─────────┐
+        ▼         ▼         ▼
+    SEARCH      BOOKING   SUPPORT
+     AGENT       AGENT     AGENT
+        │         │         │
+        └─────────┼─────────┘
+                  ▼
+               TOOLS
+                  │
+                  ▼
+             FINAL RESULT
 ```
 
-### Built with
+### Core concepts
 
-`Python` · `LangChain` · `LLMs` · `RAG` · `Vector Search` · `Prompt Engineering`
+`Multi-Agent Systems` · `LLMs` · `Tool Calling` · `Agent Orchestration` · `Workflow Automation`
 
-### Engineering focus
+### Repository
 
-* Knowledge-grounded responses
-* Retrieval quality
-* Context construction
-* Hallucination reduction
-* Source-aware answers
-* Modular AI pipeline design
-
-**Repository →**
-`github.com/jayant132/[RAG-REPOSITORY]`
+[Explore the Flight Booking Assistant →](https://github.com/jayant132/Multi-Agent-AI-Flight-Booking-Assistant-?utm_source=chatgpt.com)
 
 ---
 
-## 🤖 AI Agent Automation System
+## 🧾 Invoice Intelligence
 
-### Multi-step AI agent capable of planning and tool execution
+**Two ML pipelines solving real procurement problems.**
 
-```text
-              USER GOAL
-                  │
-                  ▼
-              PLANNING
-                  │
-                  ▼
-            TOOL SELECTION
-                  │
-                  ▼
-            TOOL EXECUTION
-                  │
-                  ▼
-             OBSERVATION
-                  │
-                  ▼
-          NEXT ACTION / DONE
-                  │
-                  └───────► LOOP
-```
+### Pipeline 01 — Freight Cost Prediction
 
-### Built with
+Predicts expected freight cost and helps identify unusually high freight charges.
 
-`Python` · `Google ADK` · `LLMs` · `AI Agents` · `Tool Calling` · `APIs`
+### Pipeline 02 — Invoice Risk Detection
 
-### Engineering focus
-
-* Agent planning
-* Tool orchestration
-* Multi-step execution
-* Workflow automation
-* Agent state
-* Failure handling
-
-**Repository →**
-`github.com/jayant132/[AGENT-REPOSITORY]`
-
----
-
-## 📄 NLP Resume Intelligence
-
-### Resume ↔ Job Description matching system
+Flags invoices based on business signals such as invoice/purchase mismatches and receiving delays.
 
 ```text
-Resume ───────────┐
-                  ├──► NLP Processing
-Job Description ──┘
-                         │
-                         ▼
-                  TF-IDF Features
-                         │
-                         ▼
-                 Cosine Similarity
-                         │
-                         ▼
-                 Match Score
-                         │
-                         ▼
-              Skills / Keywords
+SQL Data
+   ↓
+Feature Engineering
+   ↓
+Model Training
+   ↓
+Model Comparison
+   ↓
+Hyperparameter Tuning
+   ↓
+Validation
+   ↓
+Saved Model
+   ↓
+Inference
 ```
 
-### Built with
+The repository reports that engineering the `Dollar_Gap` feature increased flagged-invoice recall from **17% to 99%** on the same dataset.
 
-`Python` · `NLP` · `Scikit-learn` · `NLTK` · `Streamlit`
+### Stack
 
-### Current evolution
+`Python` · `Pandas` · `Scikit-learn` · `SQLite` · `Joblib`
 
-```text
-TF-IDF
-   ↓
-Sentence Transformers
-   ↓
-Semantic Embeddings
-   ↓
-Vector Search
-   ↓
-RAG
-```
+### Repository
 
-**Repository →**
-`github.com/jayant132/NLP-Resume-Parser`
+[Explore Invoice Intelligence →](https://github.com/jayant132/Invoice-Intelligence-ML-Project?utm_source=chatgpt.com)
 
 ---
 
 ## 🫁 Tuberculosis Detection ML
 
-### Machine learning pipeline for tuberculosis detection
+**Machine learning workflow for tuberculosis detection using chest X-ray data.**
 
 ```text
-Medical Images
-      ↓
+Medical Imaging Data
+        ↓
 Preprocessing
-      ↓
-Feature Learning
-      ↓
-Model Training
-      ↓
+        ↓
+Exploration
+        ↓
+Model Development
+        ↓
+Experimentation
+        ↓
 Evaluation
-      ↓
+        ↓
 Prediction
 ```
 
-### Focus
+The repository is organized into dedicated `src`, `experiments`, `docs`, data and checkpoint areas, reflecting a more structured ML workflow.
 
-`Machine Learning` · `Python` · `Image Processing` · `Model Evaluation`
+### Stack
 
-**Repository →**
-`github.com/jayant132/Tuberculosis-Detection-ML`
+`Python` · `Machine Learning` · `Computer Vision` · `Data Processing` · `Model Evaluation`
 
----
+### Repository
 
-# `05` — AI ENGINEERING CAPABILITIES
-
-| Capability           | What I work with                                       |
-| -------------------- | ------------------------------------------------------ |
-| **LLM Applications** | LLM APIs · Prompt Engineering · Context Management     |
-| **RAG**              | Chunking · Embeddings · Retrieval · Context Assembly   |
-| **AI Agents**        | Planning · Tool Calling · Orchestration · Workflows    |
-| **NLP**              | Text Processing · TF-IDF · Similarity · Classification |
-| **Machine Learning** | Training · Evaluation · Feature Engineering            |
-| **Backend**          | Python · REST APIs · Service Architecture              |
-| **Data**             | SQL · Pandas · NumPy · Data Pipelines                  |
-| **Cloud**            | AWS · Azure · Cloud Deployment                         |
-| **DevOps**           | Git · GitHub · Docker                                  |
-| **Applications**     | Flutter · Dart · Firebase                              |
+[Explore Tuberculosis Detection →](https://github.com/jayant132/Tuberculosis-Detection-ML?utm_source=chatgpt.com)
 
 ---
 
-# `06` — HOW I THINK ABOUT AI SYSTEMS
-
-A model is only one component.
+# `06` — ENGINEERING MINDSET
 
 ```text
-                    ┌─────────────┐
-                    │    MODEL    │
-                    └──────┬──────┘
-                           │
-        ┌──────────────────┼──────────────────┐
-        │                  │                  │
-        ▼                  ▼                  ▼
-   RETRIEVAL            TOOLS            DATA
-        │                  │                  │
-        └──────────────────┼──────────────────┘
-                           │
-                           ▼
-                    ORCHESTRATION
-                           │
-                           ▼
-                      EVALUATION
-                           │
-                           ▼
-                     MONITORING
-                           │
-                           ▼
-                     PRODUCTION
+┌─────────────────────────────────────────────┐
+│              BUILDING AI SYSTEMS            │
+├─────────────────────────────────────────────┤
+│                                             │
+│  Data ───────► Intelligence ─────► Product │
+│    │                 │                 │     │
+│    ▼                 ▼                 ▼     │
+│ Pipelines          Models           APIs    │
+│ Retrieval          Agents           Apps    │
+│ Features           LLMs             Cloud   │
+│                                             │
+└─────────────────────────────────────────────┘
 ```
 
-My goal is to understand and build the **complete system around the model**.
+### What I care about
+
+**Reliability**
+
+Systems should behave predictably.
+
+**Evaluation**
+
+AI systems need measurable performance.
+
+**Grounding**
+
+Models should use evidence when evidence is available.
+
+**Engineering**
+
+Architecture, APIs, data and infrastructure matter as much as model choice.
+
+**Iteration**
+
+Build → evaluate → identify failure → improve.
 
 ---
 
-# `07` — ENGINEERING PRINCIPLES
-
-### `01` — Reliability over hype
-
-A system that works once is a prototype.
-
-### `02` — Grounded over confident
-
-If the system doesn't have enough evidence, it should not invent an answer.
-
-### `03` — Evaluation over vibes
-
-AI systems need measurable evaluation, not screenshots of successful prompts.
-
-### `04` — Engineering over prompting
-
-Prompting matters. Architecture matters more.
-
-### `05` — Production over localhost
-
-Latency, cost, failures, observability and deployment are part of the AI problem.
-
----
-
-# `08` — CURRENTLY BUILDING
+# `07` — CURRENT FOCUS
 
 ```text
-[ AI ENGINEERING ]
-
-→ Improving RAG retrieval quality
-→ Exploring hybrid retrieval
-→ Building better agent evaluation
-→ Multi-agent coordination
-→ AI observability
-→ Cost-aware LLM architectures
-→ Production-ready AI APIs
-→ Cloud deployment
+AI ENGINEERING
+│
+├── Generative AI
+├── RAG Systems
+├── AI Agents
+├── Multi-Agent Workflows
+├── LLM Evaluation
+├── Retrieval Quality
+├── Machine Learning
+├── Python Backend Systems
+└── Cloud Deployment
 ```
 
----
+I'm particularly interested in the engineering problems around modern AI:
 
-# `09` — BACKGROUND
-
-### Software Engineering → AI Engineering
-
-My software engineering background started with application development.
-
-That experience gave me something I now bring into AI engineering:
-
-> **The mindset that software has to work for real users — not just work inside a notebook.**
-
-I now apply that mindset to:
-
-**LLMs · RAG · AI Agents · ML Systems · APIs · Cloud Infrastructure**
+**How do we make AI systems more reliable, measurable, scalable and useful?**
 
 ---
 
-# `10` — GITHUB ACTIVITY
+# `08` — BACKGROUND
+
+### From Software Engineering → AI Engineering
+
+My earlier software engineering experience taught me to think beyond individual models and features.
+
+Building applications means dealing with:
+
+**Users · APIs · failures · state · performance · deployment · maintainability**
+
+I'm bringing the same mindset into AI engineering.
+
+---
+
+# `09` — GITHUB
 
 <div align="center">
 
@@ -416,33 +429,41 @@ I now apply that mindset to:
 
 ---
 
-# `11` — LET'S BUILD
+# `10` — LET'S CONNECT
 
-I'm looking for opportunities where I can contribute to:
+I'm interested in opportunities involving:
 
 ```text
 AI Engineering
 Generative AI
-RAG Systems
 LLM Applications
+RAG
 AI Agents
 Machine Learning
-Python Backend Engineering
+Python
 AI-powered Products
 ```
 
 <div align="center">
 
-### BUILD → MEASURE → IMPROVE → SHIP
+### `BUILD → EVALUATE → IMPROVE → SHIP`
 
 <br/>
 
-<a href="https://github.com/jayant132">GitHub</a>
-  •   <a href="https://www.linkedin.com/in/jayantbhatiaa">LinkedIn</a>
-  •   <a href="mailto:jayantbhatia44@gmail.com">Email</a>
+<a href="https://github.com/jayant132">
+<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/jayantbhatiaa">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:jayantbhatia44@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail"/>
+</a>
 
 <br/><br/>
 
-**Open to AI Engineer / Generative AI / ML Engineer opportunities**
+**Open to AI Engineer · GenAI · ML Engineer opportunities**
 
 </div>
