@@ -162,6 +162,16 @@ Designing agents that can reason through tasks and interact with tools.
 * Agent state
 * Failure handling
 
+### 🛡️ AI Security & Red-Teaming
+
+Understanding how AI systems fail is part of building them responsibly — I test the agents and pipelines I build the same way an attacker would, before shipping them.
+
+* Prompt injection (direct & indirect)
+* Agentic threat modeling (tool abuse, privilege escalation, excessive agency)
+* Defense-in-depth design (guardrails, sanitizers, confirmation gates)
+* Measured, reproducible security evaluation — not one-off testing
+* OWASP Agentic AI / LLM Top 10 mapping
+
 ---
 
 # `03` — MACHINE LEARNING
@@ -208,6 +218,11 @@ Inference
 
 `LLMs` `RAG` `AI Agents` `LangChain` `Google ADK`
 `Scikit-learn` `NLP` `Computer Vision` `Prompt Engineering`
+
+### AI SECURITY
+
+`Prompt Injection Testing` `Agentic Red-Teaming` `Guardrail Design`
+`OWASP LLM Top 10` `Adversarial Evaluation`
 
 ### DATA
 
@@ -338,6 +353,41 @@ The repository is organized into dedicated `src`, `experiments`, `docs`, data an
 
 ---
 
+## 🛡️ Agentic Red Team Framework
+
+**A red-team harness that attacks a tool-using LLM agent to measure — not assume — how it fails.**
+
+```text
+     ATTACK LIBRARY                    TARGET AGENT
+  (7 OWASP-mapped probes)          (ReAct loop, 4 tools)
+          │                                │
+  direct + indirect injection ──▶  web_search / file_system
+  tool abuse                        database / external_api
+  privilege escalation                     │
+  data exfiltration                        ▼
+  excessive agency               DEFENSE-IN-DEPTH STACK
+          │                       guardrail → sanitizer →
+          ▼                       scope check → PII scan →
+   4-LEVEL RUBRIC                  confirmation gate
+  BLOCKED · DETECTED ·
+  PARTIAL · FULL_SUCCESS                   │
+          │                                ▼
+          └──────────▶  BASELINE vs. DEFENDED REPORT
+                         (CI-gated, fails build on regression)
+```
+
+Every result is from an actual run against two backends — a deterministic mock (what CI runs) and a real local model (`llama3.2:1b` via Ollama) — with baseline vulnerabilities proven before measuring how much the defenses actually close. Known limitations (a sanitizer paraphrase-evasion gap, and a real bug the project's own tooling caught in itself) are documented rather than hidden.
+
+### Core concepts
+
+`Prompt Injection` · `Agentic Threat Modeling` · `Defense-in-Depth` · `Red-Team Scoring Rubrics` · `CI Security Gates`
+
+### Repository
+
+[Explore the Agentic Red Team Framework →](https://github.com/jayant132)
+
+---
+
 # `06` — ENGINEERING MINDSET
 
 ```text
@@ -369,6 +419,10 @@ AI systems need measurable performance.
 
 Models should use evidence when evidence is available.
 
+**Security**
+
+Systems should be tested against how they can fail, not just how they're meant to work.
+
 **Engineering**
 
 Architecture, APIs, data and infrastructure matter as much as model choice.
@@ -390,6 +444,7 @@ AI ENGINEERING
 ├── Multi-Agent Workflows
 ├── LLM Evaluation
 ├── Retrieval Quality
+├── AI / Agentic Security
 ├── Machine Learning
 ├── Python Backend Systems
 └── Cloud Deployment
@@ -397,7 +452,7 @@ AI ENGINEERING
 
 I'm particularly interested in the engineering problems around modern AI:
 
-**How do we make AI systems more reliable, measurable, scalable and useful?**
+**How do we make AI systems more reliable, measurable, scalable, secure and useful?**
 
 ---
 
@@ -439,6 +494,7 @@ Generative AI
 LLM Applications
 RAG
 AI Agents
+AI / Agentic Security
 Machine Learning
 Python
 AI-powered Products
