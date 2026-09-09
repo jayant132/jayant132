@@ -91,6 +91,7 @@ Designing AI applications around LLMs, RAG, agents, and tool-enabled workflows.
 - Prompt engineering & context management
 - LLM evaluation & regression testing
 - Guardrails & prompt-injection defenses
+- AI/LLM red-teaming & adversarial testing
 - Local and cloud model inference
 
 </td>
@@ -143,12 +144,69 @@ Connecting backend and AI services to production-grade clients.
 
 <br>
 
+## Featured Projects
+
+<table>
+<tr><td width="50%" valign="top">
+
+### 🛡️ Agentic Red Team Framework
+A production-shaped red-team harness for tool-using LLM agents — not another single-turn chat guardrail.
+
+- 4 tools attacked: web search, file system, database, external API
+- 7 attacks: direct/indirect prompt injection, tool abuse, privilege escalation, data exfiltration, excessive agency
+- 4-level outcome rubric (`BLOCKED` → `FULL_SUCCESS`), not pass/fail
+- CI security gate — blocks merges below an 85% defended pass-rate threshold
+- Benchmarked on two backends: a deterministic mock and a real local LLM (Ollama)
+
+| Mode | Backend | Pass Rate |
+|---|---|---|
+| Baseline (no defenses) | Mock | 0/7 (0%) |
+| Defended | Mock | 6/7 (86%) ✅ |
+| Baseline (no defenses) | Ollama (llama3.2:1b) | 6/7 (86%) ✅ |
+| Defended | Ollama (llama3.2:1b) | 7/7 (100%) ✅ |
+
+**Stack:** Python · ReAct agent loop · Ollama · SQLite · pytest · GitHub Actions
+**Mapped to:** OWASP Agentic AI threat categories
+
+**Repo:** [github.com/jayant132/Agentic-Red-Team-Framework](https://github.com/jayant132/Agentic-Red-Team-Framework)
+
+</td>
+<td width="50%" valign="top">
+
+### 🔐 MCP Guardrail
+A security scanner for MCP (Model Context Protocol) servers and clients — testing the tool-catalog trust boundary that most AI red-team tooling skips.
+
+- 5 attacks: tool-description poisoning, indirect injection via tool output, credential exposure, trust-boundary violation, allowlist bypass
+- Same 4-level rubric and baseline-vs-defended discipline as the companion project above
+- Defense-in-depth proven on a real run: a documented sanitizer gap (paraphrase evasion) caught by an independent allowlist layer
+- CI security gate on every push
+
+| Mode | Backend | Pass Rate |
+|---|---|---|
+| Baseline (no defenses) | Mock | 0/5 (0%) |
+| Defended | Mock | 5/5 (100%) ✅ |
+| Baseline / Defended | Ollama (llama3.2:1b) | 5/5 (100%) ✅ |
+
+**Stack:** Python · MCP protocol · Ollama · pytest · GitHub Actions
+**Mapped to:** OWASP GenAI LLM Top 10 (2026)
+
+**Repo:** [github.com/jayant132/MCP-Guardrail](https://github.com/jayant132/MCP-Guardrail)
+
+</td>
+</tr>
+</table>
+
+> Both projects report real, reproducible numbers — including baselines proving the attacks work, and honestly-documented limitations rather than only "everything blocked" results.
+
+<br>
+
 ## Engineering Stack
 
 <table>
 <tr><th align="left">Category</th><th align="left">Technologies</th></tr>
 <tr><td><b>Generative AI</b></td><td>LLMs, RAG, Agentic AI, Prompt Engineering, Tool Calling</td></tr>
 <tr><td><b>AI Frameworks</b></td><td>LangGraph, LangChain, Google ADK</td></tr>
+<tr><td><b>AI Security</b></td><td>Prompt-injection defense, red-teaming, MCP trust-boundary testing, OWASP GenAI mapping</td></tr>
 <tr><td><b>Backend</b></td><td>Python, FastAPI, AsyncIO, REST, WebSockets, SSE</td></tr>
 <tr><td><b>Databases</b></td><td>PostgreSQL, MySQL, SQLite, Redis, pgvector</td></tr>
 <tr><td><b>Machine Learning</b></td><td>Scikit-Learn, XGBoost, Pandas, NumPy</td></tr>
@@ -175,20 +233,20 @@ component of a larger, reliable architecture, rather than an LLM call being the 
 ## Currently Focused On
 
 <table>
-<tr><td width="33%" align="center">🧩<br/><b>Agentic Workflows</b><br/><sub>Multi-step LangGraph agents with reliable tool use</sub></td>
-<td width="33%" align="center">🔍<br/><b>RAG Reliability</b><br/><sub>Retrieval quality, evaluation, and guardrails</sub></td>
-<td width="33%" align="center">🚀<br/><b>Production Readiness</b><br/><sub>Turning AI prototypes into deployable services</sub></td></tr>
+<tr><td width="33%" align="center">🧩<br/><b>Agentic AI Systems</b><br/><sub>LangGraph agents, tool calling, structured outputs</sub></td>
+<td width="33%" align="center">🔍<br/><b>RAG & LLM Reliability</b><br/><sub>Retrieval quality, evaluation pipelines, guardrails</sub></td>
+<td width="33%" align="center">⚙️<br/><b>Scalable Backend Systems</b><br/><sub>FastAPI, async services, databases, production infra</sub></td></tr>
 </table>
 
 <br>
 
 <div align="center">
 
-> Good AI engineering isn't about the model call — it's about everything reliable that surrounds it.
+> Good AI engineering isn't about the model call — it's the backend architecture, data layer, and guardrails that make it reliable in production.
 
 <br>
 
-### Open to opportunities in AI Engineering, Backend Engineering & Applied ML
+### Open to opportunities in AI Engineering & Backend Engineering
 
 <br>
 
