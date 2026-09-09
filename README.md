@@ -59,18 +59,15 @@ My work spans the full lifecycle of AI-powered applications:
 
 ## System Architecture
 
-```mermaid
-flowchart TD
-    A["📱 Application Layer<br/>Flutter · React Native · Web"] --> B
-    B["⚙️ Backend Layer<br/>FastAPI · Python · Pydantic · AsyncIO · REST / WebSocket"] --> C
-    C["🤖 AI / ML Layer<br/>LLMs · RAG · LangGraph · Google ADK · Scikit-Learn"] --> D
-    D["🗄️ Data Layer<br/>PostgreSQL · Redis · pgvector · SQLite"]
-
-    style A fill:#0A66C2,color:#fff,stroke:#333
-    style B fill:#009688,color:#fff,stroke:#333
-    style C fill:#8E44AD,color:#fff,stroke:#333
-    style D fill:#DC382D,color:#fff,stroke:#333
-```
+<table>
+<tr><td align="center">📱&nbsp;&nbsp;<b>Application Layer</b><br/><sub>Flutter · React Native · Web</sub></td></tr>
+<tr><td align="center">⬇️</td></tr>
+<tr><td align="center">⚙️&nbsp;&nbsp;<b>Backend Layer</b><br/><sub>FastAPI · Python · Pydantic · AsyncIO · REST / WebSocket</sub></td></tr>
+<tr><td align="center">⬇️</td></tr>
+<tr><td align="center">🤖&nbsp;&nbsp;<b>AI / ML Layer</b><br/><sub>LLMs · RAG · LangGraph · Google ADK · Scikit-Learn</sub></td></tr>
+<tr><td align="center">⬇️</td></tr>
+<tr><td align="center">🗄️&nbsp;&nbsp;<b>Data Layer</b><br/><sub>PostgreSQL · Redis · pgvector · SQLite</sub></td></tr>
+</table>
 
 **Engineering approach:** combine deterministic software engineering with AI capabilities —
 traditional code handles business rules, validation, and system control, while LLMs are used
@@ -167,38 +164,33 @@ Connecting backend and AI services to production-grade clients.
 My primary focus is **production-grade AI engineering** — building systems where AI is one
 component of a larger, reliable architecture, rather than an LLM call being the entire application.
 
-```mermaid
-flowchart LR
-    A[LLMs] --> B[RAG / Agents]
-    B --> C[Tool Calling]
-    C --> D[FastAPI Services]
-    D --> E[Databases & Caches]
-    E --> F[Docker + CI/CD]
-    F --> G[Production Applications]
+<div align="center">
 
-    style A fill:#8E44AD,color:#fff
-    style B fill:#8E44AD,color:#fff
-    style C fill:#009688,color:#fff
-    style D fill:#009688,color:#fff
-    style E fill:#DC382D,color:#fff
-    style F fill:#2496ED,color:#fff
-    style G fill:#0A66C2,color:#fff
-```
+`LLMs` → `RAG / Agents` → `Tool Calling` → `FastAPI Services` → `Databases & Caches` → `Docker + CI/CD` → `Production Applications`
+
+</div>
+
+<br>
+
+## Currently Focused On
+
+<table>
+<tr><td width="33%" align="center">🧩<br/><b>Agentic Workflows</b><br/><sub>Multi-step LangGraph agents with reliable tool use</sub></td>
+<td width="33%" align="center">🔍<br/><b>RAG Reliability</b><br/><sub>Retrieval quality, evaluation, and guardrails</sub></td>
+<td width="33%" align="center">🚀<br/><b>Production Readiness</b><br/><sub>Turning AI prototypes into deployable services</sub></td></tr>
+</table>
 
 <br>
 
 <div align="center">
 
-### 📊 GitHub Stats
+> Good AI engineering isn't about the model call — it's about everything reliable that surrounds it.
 
-<img src="https://github-readme-stats.vercel.app/api?username=jayant132&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jayant132&theme=tokyonight&hide_border=true" height="165"/>
+<br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayant132&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+### Open to opportunities in AI Engineering, Backend Engineering & Applied ML
 
-<br><br>
-
-**Let's connect and build something great.**
+<br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-jayant132-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jayant132)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayantbhatiaa)
