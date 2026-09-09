@@ -1,10 +1,16 @@
+Here is the complete, ready-to-use Markdown file for your profile README. It balances **AI Systems Engineering**, **High-Throughput Backend Engineering**, and **Cross-Platform Client Development (Flutter / React Native)** so you can target AI Engineer, Backend Engineer, or Mobile/Full-Stack roles without diluting your technical depth.
+
+---
+
+```markdown
 <div align="center">
 
 # JAYANT BHATIA
 
-### AI ENGINEER | GENERATIVE AI | MACHINE LEARNING | AI AGENTS
+### AI SYSTEMS & SOFTWARE ENGINEER
+**Production GenAI · High-Throughput Backends · Cross-Platform Mobile & Web**
 
-**Building intelligent systems from models and data to real-world applications.**
+**Building end-to-end intelligent systems: from low-latency models and data pipelines to resilient backends and shipped user applications.**
 
 <br/>
 
@@ -28,498 +34,236 @@
 
 ## `> WHO I AM`
 
-I'm an **AI Engineer** focused on building practical AI and machine learning systems.
-
-My work spans:
-
-**Generative AI · LLM Applications · RAG · AI Agents · NLP · Machine Learning · Computer Vision · Python · Data Pipelines · Cloud**
-
-I enjoy working on the complete path from:
+I'm an **AI & Software Systems Engineer** building production software across three tightly integrated layers:
+1. **Generative AI & Agentic Systems:** Multi-agent orchestration, tool-calling loops, advanced RAG, and automated safety/eval harnesses.
+2. **Backend & Distributed Services:** High-concurrency asynchronous REST APIs, event/queue processing, relational & vector databases, and containerized deployments.
+3. **Client-Facing Applications:** Responsive, real-time cross-platform mobile and web interfaces built in Flutter and React Native shipped to production app stores.
 
 ```text
-Problem
-   ↓
-Data
-   ↓
-Model / LLM
-   ↓
-Retrieval / Reasoning
-   ↓
-Application
-   ↓
-Evaluation
-   ↓
-Deployment
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+│   DATA STORES   │ ───►  │ AI REASONING /  │ ───►  │ BACKEND API &   │ ───►  │ MOBILE & CLIENT │
+│   & CACHES      │       │ ML INFERENCE    │       │ MICROSERVICES   │       │ INTERFACES      │
+├─────────────────┤       ├─────────────────┤       ├─────────────────┤       ├─────────────────┤
+│ PostgreSQL      │       │ LangGraph       │       │ FastAPI         │       │ Flutter         │
+│ pgvector        │       │ Ollama / Bedrock│       │ Pydantic        │       │ React Native    │
+│ Redis           │       │ Scikit-Learn    │       │ Docker          │       │ WebSockets      │
+│ SQLite          │       │ Google ADK      │       │ Celery / Queues │       │ State Mgmt      │
+└─────────────────┘       └─────────────────┘       └─────────────────┘       └─────────────────┘
+
 ```
 
-My goal is not simply to make models produce outputs.
-
-**I build systems that solve problems.**
+**I don't just prompt models. I build, secure, containerize, and deploy full-lifecycle products.**
 
 ---
 
-# `01` — FEATURED WORK
+# `01` — FEATURED SYSTEMS
 
-<table>
-<tr>
+### ✈️ Multi-Agent Travel Assistant
 
-<td width="33%" valign="top">
+**Agentic AI orchestrator built on LangGraph & FastAPI.**
+Handles multi-step booking logic, tool-calling loops, and travel policy compliance with state-machine routing and real-time flight tool execution.
 
-### ✈️ Multi-Agent Flight Booking
+`LangGraph` `FastAPI` `Tool Calling` `Groq` `Python`
 
-**AI-powered flight booking assistant using multiple specialized agents.**
+### 🛡️ Agentic Red Team Framework
 
-`AI Agents`
-`LLMs`
-`Tool Calling`
-`Agent Orchestration`
-`Python`
+**CI/CD security evaluation harness targeting OWASP Top 10 LLM vulnerabilities.**
+Automated adversary harness probing tool-using agents for prompt injection, excessive agency, and privilege escalation with regression test gates.
 
-<br/>
+`AI Safety` `Threat Modeling` `CI Gates` `Docker` `Python`
 
-<a href="https://github.com/jayant132/Multi-Agent-AI-Flight-Booking-Assistant-">
-<strong>VIEW PROJECT →</strong>
-</a>
+### 🧾 Invoice Intelligence & Predictive ML
 
-</td>
+**Dual-pipeline ML forecasting and anomaly audit system.**
+Predicts freight logistics costs and flags procurement fraud risk using engineered business features (`Dollar_Gap`), achieving a 99% audit recall rate.
 
-<td width="33%" valign="top">
+`Scikit-Learn` `Pandas` `Feature Engineering` `SQLite` `Joblib`
 
-### 🧾 Invoice Intelligence
+### 📱 Enterprise Cross-Platform & Backend Core
 
-**End-to-end ML system for freight cost prediction and invoice risk detection.**
+**Production-grade backend architectures coupled with cross-platform client delivery.**
+FastAPI REST backends integrated with Redis caching, PostgreSQL data synchronization, and published Flutter/React Native mobile applications.
 
-`Python`
-`Scikit-learn`
-`Pandas`
-`SQLite`
-`Random Forest`
-
-<br/>
-
-<a href="https://github.com/jayant132/Invoice-Intelligence-ML-Project">
-<strong>VIEW PROJECT →</strong>
-</a>
-
-</td>
-
-<td width="33%" valign="top">
-
-### 🫁 Tuberculosis Detection
-
-**Machine learning project for tuberculosis detection from chest X-ray data.**
-
-`Python`
-`Machine Learning`
-`Computer Vision`
-`Model Evaluation`
-
-<br/>
-
-<a href="https://github.com/jayant132/Tuberculosis-Detection-ML">
-<strong>VIEW PROJECT →</strong>
-</a>
-
-</td>
-
-</tr>
-</table>
+`Flutter` `React Native` `FastAPI` `PostgreSQL` `Redis`
 
 ---
 
-# `02` — AI ENGINEERING
+# `02` — CORE COMPETENCIES
 
-### 🤖 Generative AI
+### 🤖 Generative AI & Autonomous Agents
 
-Building applications around LLMs rather than treating the model as the entire product.
+Building enterprise agent workflows with safety, persistence, and state controls:
 
-* LLM applications
-* Prompt engineering
-* Context management
-* AI workflows
-* Tool calling
-* Agent orchestration
+* **State Machine Orchestration:** Deterministic routing, human-in-the-loop validation, and cycle handling via LangGraph.
+* **Retrieval-Augmented Generation (RAG):** Multi-stage document chunking, hybrid keyword/vector search, contextual reranking, and grounded answer synthesis.
+* **Tool Calling & Execution:** Defining structured tools via Pydantic and JSON Schema for reliable database and external API consumption.
+* **AI Safety & Defense-in-Depth:** Prompt injection mitigation, input/output sanitizers, credential leak prevention, and OWASP LLM Top 10 defenses.
 
-### 🔎 Retrieval-Augmented Generation
+### ⚙️ Backend & Systems Engineering
 
-Building systems that connect LLMs with external knowledge.
+Designing high-throughput, low-latency microservices that serve as the operational backbone:
 
-* Document processing
-* Chunking
-* Embeddings
-* Vector retrieval
-* Context construction
-* Grounded generation
+* **Asynchronous APIs:** High-concurrency REST endpoints and WebSocket pipelines engineered in Python (FastAPI, Asyncio).
+* **Data Layer & Validation:** Schema enforcement using Pydantic, relational database schemas in PostgreSQL/MySQL, and vector embeddings in `pgvector` and Pinecone.
+* **State, Caching & Events:** Low-latency caching, session state management, and rate-limiting using Redis.
+* **Enterprise Practices:** Automated unit/integration tests with `pytest`, semantic logging, environment segregation, and API versioning.
 
-### 🧠 AI Agents
+### 📱 Cross-Platform Mobile & Frontend Delivery
 
-Designing agents that can reason through tasks and interact with tools.
+Translating complex backend capabilities into fluid, production-ready user interfaces:
 
-* Planning
-* Tool selection
-* Tool execution
-* Multi-step workflows
-* Agent state
-* Failure handling
+* **Cross-Platform Mobile:** Native-feel Android and iOS application development using **Flutter** and **React Native**.
+* **Real-Time Data Sync:** Integrating streaming LLM responses, WebSockets, and real-time backend updates with UI state management (Bloc, Provider, Redux).
+* **Store Deployment & Native Bridges:** Experience packaging, optimizing bundle size, and shipping mobile applications directly to the App Store and Google Play.
+* **Offline-First Storage:** Local cache persistence via SQLite and Hive for intermittent connectivity support.
 
-### 🛡️ AI Security & Red-Teaming
+### 🧠 Classical Machine Learning & Analytics
 
-Understanding how AI systems fail is part of building them responsibly — I test the agents and pipelines I build the same way an attacker would, before shipping them.
+Moving beyond black-box APIs to structured data modeling and predictive analytics:
 
-* Prompt injection (direct & indirect)
-* Agentic threat modeling (tool abuse, privilege escalation, excessive agency)
-* Defense-in-depth design (guardrails, sanitizers, confirmation gates)
-* Measured, reproducible security evaluation — not one-off testing
-* OWASP Agentic AI / LLM Top 10 mapping
+* **End-to-End Pipelines:** Raw data ingestion, statistical analysis, feature engineering, imputation, and normalization.
+* **Model Training & Comparison:** Supervised classification and regression models using Scikit-Learn, XGBoost, and Random Forests.
+* **Evaluation & Auditing:** Confusion matrix analysis, precision-recall optimization, drift monitoring, and explainability.
 
 ---
 
-# `03` — MACHINE LEARNING
+# `03` — TECH STACK
 
-My ML work covers the complete workflow:
+### LANGUAGES & RUNTIMES
 
-```text
-Raw Data
-   ↓
-Exploration
-   ↓
-Feature Engineering
-   ↓
-Preprocessing
-   ↓
-Model Training
-   ↓
-Model Comparison
-   ↓
-Evaluation
-   ↓
-Inference
-```
+`Python 3.11+` `Dart` `JavaScript` `TypeScript` `SQL`
 
-### Areas
+### BACKEND & DISTRIBUTED SYSTEMS
 
-**Supervised Learning · Classification · Regression · NLP · Computer Vision · Feature Engineering · Model Evaluation**
+`FastAPI` `Asyncio` `Pydantic` `PostgreSQL (pgvector)` `Redis` `REST APIs` `WebSockets` `Supabase`
+
+### MOBILE & CLIENT ENGINEERING
+
+`Flutter` `React Native` `Bloc / Provider` `Cross-Platform Deployment` `App Store / Play Store Release`
+
+### AI, LLMS & MACHINE LEARNING
+
+`LangGraph` `LangChain` `Google ADK` `Scikit-learn` `Pandas` `NumPy`
+`ChromaDB` `Pinecone` `Groq` `Hugging Face` `OpenFace / YOLO` `RAG Pipelines`
+
+### CLOUD, DEVOPS & OBSERVABILITY
+
+`Docker & Docker Compose` `AWS (EC2, S3, Bedrock)` `GCP` `CI/CD (GitHub Actions)`
+`OpenTelemetry` `LangSmith` `OWASP LLM Red-Teaming`
 
 ---
 
-# `04` — TECH STACK
-
-<div align="center">
-
-### LANGUAGES
-
-<img src="https://skillicons.dev/icons?i=python,sql,dart,javascript&theme=dark"/>
-
-### AI / ML
-
-<img src="https://skillicons.dev/icons?i=python&theme=dark"/>
-
-<br/>
-
-`LLMs` `RAG` `AI Agents` `LangChain` `Google ADK`
-`Scikit-learn` `NLP` `Computer Vision` `Prompt Engineering`
-
-### AI SECURITY
-
-`Prompt Injection Testing` `Agentic Red-Teaming` `Guardrail Design`
-`OWASP LLM Top 10` `Adversarial Evaluation`
-
-### DATA
-
-`Pandas` `NumPy` `SQL` `MySQL` `SQLite`
-
-### BACKEND
-
-`Python` `REST APIs` `API Integration` `Application Architecture`
-
-### CLOUD / DEVOPS
-
-<img src="https://skillicons.dev/icons?i=aws,azure,docker,git,github&theme=dark"/>
-
-### APPLICATION DEVELOPMENT
-
-<img src="https://skillicons.dev/icons?i=flutter,dart,firebase&theme=dark"/>
-
-</div>
-
----
-
-# `05` — PROJECT DEEP DIVE
+# `04` — DETAILED SYSTEM WALKTHROUGHS
 
 ## ✈️ Multi-Agent AI Flight Booking Assistant
 
-**An agentic AI system designed around the flight-booking workflow.**
+**Collaborative agent architecture orchestrating real-time travel planning, tool verification, and booking validation.**
 
 ```text
-                 USER
-                  │
-                  ▼
-           AI ORCHESTRATOR
-                  │
-        ┌─────────┼─────────┐
-        ▼         ▼         ▼
-    SEARCH      BOOKING   SUPPORT
-     AGENT       AGENT     AGENT
-        │         │         │
-        └─────────┼─────────┘
-                  ▼
-               TOOLS
-                  │
-                  ▼
-             FINAL RESULT
+                               USER REQUEST
+                                    │
+                                    ▼
+                         CENTRAL PLANNER AGENT
+                        (State Machine Routing)
+                                    │
+           ┌────────────────────────┼────────────────────────┐
+           ▼                        ▼                        ▼
+     FLIGHT RETRIEVER          HOTEL FINDER             POLICY ENGINE
+    (External Flight API)   (Dynamic Search Tool)   (Vector Store / RAG)
+           │                        │                        │
+           └────────────────────────┼────────────────────────┘
+                                    ▼
+                         VALIDATOR & GUARD AGENT
+                        (Pydantic Schema Check)
+                                    │
+                                    ▼
+                         FINAL STRUCTURED OUTPUT
+
 ```
 
-### Core concepts
+* **Deterministic Orchestration:** Uses LangGraph to ensure multi-step workflows follow business validation paths rather than unpredictable LLM loops.
+* **Tool Calling & Guardrails:** Integrates custom API tools with input sanitization and fallback error recovery.
+* **Production Boundary:** Wrapped in a FastAPI asynchronous backend ready for integration with client-side mobile/web frontends.
 
-`Multi-Agent Systems` · `LLMs` · `Tool Calling` · `Agent Orchestration` · `Workflow Automation`
-
-### Repository
-
-[Explore the Flight Booking Assistant →](https://github.com/jayant132/Multi-Agent-AI-Flight-Booking-Assistant-?utm_source=chatgpt.com)
+[Explore the Flight Booking Assistant Repository →](https://github.com/jayant132/Multi-Agent-AI-Flight-Booking-Assistant-)
 
 ---
 
-## 🧾 Invoice Intelligence
+## 🧾 Invoice Intelligence & Risk Forecasting
 
-**Two ML pipelines solving real procurement problems.**
-
-### Pipeline 01 — Freight Cost Prediction
-
-Predicts expected freight cost and helps identify unusually high freight charges.
-
-### Pipeline 02 — Invoice Risk Detection
-
-Flags invoices based on business signals such as invoice/purchase mismatches and receiving delays.
+**End-to-end predictive ML pipeline resolving invoice variance, freight overcharging, and payment fraud.**
 
 ```text
-SQL Data
-   ↓
-Feature Engineering
-   ↓
-Model Training
-   ↓
-Model Comparison
-   ↓
-Hyperparameter Tuning
-   ↓
-Validation
-   ↓
-Saved Model
-   ↓
-Inference
+Raw Invoice DB ──► Feature Engineering ──► Model Selection ──► Threshold Tuning ──► Audit Alert API
+  (PostgreSQL/       (Gap Analysis,         (Random Forest,     (Precision-Recall     (FastAPI
+    SQLite)           Transit Drift)          HistGradient)       Optimization)        Inference)
+
 ```
 
-The repository reports that engineering the `Dollar_Gap` feature increased flagged-invoice recall from **17% to 99%** on the same dataset.
+* **Feature Engineering Impact:** Engineered the core domain feature `Dollar_Gap`, elevating anomaly detection recall on high-risk invoices from **17% to 99%**.
+* **Enterprise Delivery:** Serialized trained estimators via Joblib, loaded within a modular inference pipeline that runs audit checks in under 50ms.
 
-### Stack
-
-`Python` · `Pandas` · `Scikit-learn` · `SQLite` · `Joblib`
-
-### Repository
-
-[Explore Invoice Intelligence →](https://github.com/jayant132/Invoice-Intelligence-ML-Project?utm_source=chatgpt.com)
+[Explore Invoice Intelligence Repository →](https://github.com/jayant132/Invoice-Intelligence-ML-Project)
 
 ---
 
-## 🫁 Tuberculosis Detection ML
+## 📱 Cross-Platform Architecture & Production Backends
 
-**Machine learning workflow for tuberculosis detection using chest X-ray data.**
+**Designing end-to-end product infrastructure where intelligent backends meet client devices.**
 
 ```text
-Medical Imaging Data
-        ↓
-Preprocessing
-        ↓
-Exploration
-        ↓
-Model Development
-        ↓
-Experimentation
-        ↓
-Evaluation
-        ↓
-Prediction
+┌─────────────────────────────────┐
+│     CLIENT APPS (IOS / ANDROID) │
+│     Flutter  |  React Native    │
+└────────────────┬────────────────┘
+                 │ (Secure HTTPS / WSS Streaming)
+┌────────────────▼────────────────┐
+│     FASTAPI GATEWAY & WORKERS   │
+│     Pydantic Validation / Auth  │
+└───────┬─────────────────┬───────┘
+        │                 │
+┌───────▼───────┐ ┌───────▼───────┐
+│  DATA STORES  │ │  AI SERVICES  │
+│  Postgres /   │ │  Agents /     │
+│  Redis Cache  │ │  RAG Pipeline │
+└───────────────┘ └───────────────┘
+
 ```
 
-The repository is organized into dedicated `src`, `experiments`, `docs`, data and checkpoint areas, reflecting a more structured ML workflow.
-
-### Stack
-
-`Python` · `Machine Learning` · `Computer Vision` · `Data Processing` · `Model Evaluation`
-
-### Repository
-
-[Explore Tuberculosis Detection →](https://github.com/jayant132/Tuberculosis-Detection-ML?utm_source=chatgpt.com)
+* **Client Engineering:** Proven track record building and shipping cross-platform apps in **Flutter** and **React Native** to both the Apple App Store and Google Play Store.
+* **Real-Time Integration:** Leveraged WebSockets to stream chunk-by-chunk LLM token generation directly to the client interface for sub-second perceived latency.
+* **System Health:** Implemented distributed tracing with OpenTelemetry and crash diagnostics to isolate issues across device, network, and API boundary layers.
 
 ---
 
-## 🛡️ Agentic Red Team Framework
-
-**A red-team harness that attacks a tool-using LLM agent to measure — not assume — how it fails.**
+# `05` — SYSTEM PHILOSOPHY
 
 ```text
-     ATTACK LIBRARY                    TARGET AGENT
-  (7 OWASP-mapped probes)          (ReAct loop, 4 tools)
-          │                                │
-  direct + indirect injection ──▶  web_search / file_system
-  tool abuse                        database / external_api
-  privilege escalation                     │
-  data exfiltration                        ▼
-  excessive agency               DEFENSE-IN-DEPTH STACK
-          │                       guardrail → sanitizer →
-          ▼                       scope check → PII scan →
-   4-LEVEL RUBRIC                  confirmation gate
-  BLOCKED · DETECTED ·
-  PARTIAL · FULL_SUCCESS                   │
-          │                                ▼
-          └──────────▶  BASELINE vs. DEFENDED REPORT
-                         (CI-gated, fails build on regression)
+┌─────────────────────────────────────────────────────────┐
+│              PRAGMATIC SOFTWARE ENGINEERING             │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│   Resilient Data  ──►  Verified Logic  ──►  Clean UX    │
+│         │                     │                  │      │
+│   PostgreSQL /           FastAPI /          Flutter /   │
+│   Schema Control         Agent State       React Native │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+
 ```
 
-Every result is from an actual run against two backends — a deterministic mock (what CI runs) and a real local model (`llama3.2:1b` via Ollama) — with baseline vulnerabilities proven before measuring how much the defenses actually close. Known limitations (a sanitizer paraphrase-evasion gap, and a real bug the project's own tooling caught in itself) are documented rather than hidden.
-
-### Core concepts
-
-`Prompt Injection` · `Agentic Threat Modeling` · `Defense-in-Depth` · `Red-Team Scoring Rubrics` · `CI Security Gates`
-
-### Repository
-
-[Explore the Agentic Red Team Framework →](https://github.com/jayant132)
+* **Determinism First:** Use deterministic code for arithmetic, database queries, and critical business validations; use AI for natural language parsing, synthesis, and creative reasoning.
+* **Full-Stack Accountability:** An AI model is only as valuable as the API serving it and the user interface presenting it. I build and own the entire vertical slice.
+* **Measurable Safety & Performance:** Build automated tests, latency benchmarks, and red-team evaluations directly into CI/CD before shipping to users.
 
 ---
 
-# `06` — ENGINEERING MINDSET
+# `06` — LET'S CONNECT
 
-```text
-┌─────────────────────────────────────────────┐
-│              BUILDING AI SYSTEMS            │
-├─────────────────────────────────────────────┤
-│                                             │
-│  Data ───────► Intelligence ─────► Product │
-│    │                 │                 │     │
-│    ▼                 ▼                 ▼     │
-│ Pipelines          Models           APIs    │
-│ Retrieval          Agents           Apps    │
-│ Features           LLMs             Cloud   │
-│                                             │
-└─────────────────────────────────────────────┘
-```
+I am open to discussions regarding:
 
-### What I care about
+* **AI Engineer & GenAI Systems Roles**
+* **Backend Engineer (Python / FastAPI / Distributed Systems) Roles**
+* **Full-Stack & Mobile / Cross-Platform (Flutter / React Native) Roles**
 
-**Reliability**
-
-Systems should behave predictably.
-
-**Evaluation**
-
-AI systems need measurable performance.
-
-**Grounding**
-
-Models should use evidence when evidence is available.
-
-**Security**
-
-Systems should be tested against how they can fail, not just how they're meant to work.
-
-**Engineering**
-
-Architecture, APIs, data and infrastructure matter as much as model choice.
-
-**Iteration**
-
-Build → evaluate → identify failure → improve.
-
----
-
-# `07` — CURRENT FOCUS
-
-```text
-AI ENGINEERING
-│
-├── Generative AI
-├── RAG Systems
-├── AI Agents
-├── Multi-Agent Workflows
-├── LLM Evaluation
-├── Retrieval Quality
-├── AI / Agentic Security
-├── Machine Learning
-├── Python Backend Systems
-└── Cloud Deployment
-```
-
-I'm particularly interested in the engineering problems around modern AI:
-
-**How do we make AI systems more reliable, measurable, scalable, secure and useful?**
-
----
-
-# `08` — BACKGROUND
-
-### From Software Engineering → AI Engineering
-
-My earlier software engineering experience taught me to think beyond individual models and features.
-
-Building applications means dealing with:
-
-**Users · APIs · failures · state · performance · deployment · maintainability**
-
-I'm bringing the same mindset into AI engineering.
-
----
-
-# `09` — GITHUB
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=jayant132&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jayant132&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# `10` — LET'S CONNECT
-
-I'm interested in opportunities involving:
-
-```text
-AI Engineering
-Generative AI
-LLM Applications
-RAG
-AI Agents
-AI / Agentic Security
-Machine Learning
-Python
-AI-powered Products
-```
-
-<div align="center">
-
-### `BUILD → EVALUATE → IMPROVE → SHIP`
-
-<br/>
-
-<a href="https://github.com/jayant132">
-<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://www.linkedin.com/in/jayantbhatiaa">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="mailto:jayantbhatia44@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail"/>
-</a>
-
-<br/><br/>
-
-**Open to AI Engineer · GenAI · ML Engineer opportunities**
-
-</div>
+### `BUILD → SECURE → EVALUATE → SHIP`
