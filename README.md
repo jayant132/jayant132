@@ -150,7 +150,7 @@ Connecting backend and AI services to production-grade clients.
 <tr><td width="50%" valign="top">
 
 ### 🛡️ Agentic Red Team Framework
-A production-shaped red-team harness for tool-using LLM agents — not another single-turn chat guardrail.
+A production-shaped red-team harness for tool-using LLM agents.
 
 - 4 tools attacked: web search, file system, database, external API
 - 7 attacks: direct/indirect prompt injection, tool abuse, privilege escalation, data exfiltration, excessive agency
