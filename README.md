@@ -1,146 +1,147 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:14B8A6&height=190&section=header&text=JAYANT%20BHATIA&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=AI%20Systems%20%26%20Backend%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+```
+╔═══════════════════════════════════════════════════════════╗
+║  SYSTEM BOOT — v2.6                                        ║
+╠═══════════════════════════════════════════════════════════╣
+║                                                             ║
+║  > initializing profile..................... [ OK ]        ║
+║  > loading identity.......................... [ OK ]        ║
+║  > mounting stack............................ [ OK ]        ║
+║  > running self-diagnostics.................. [ OK ]        ║
+║                                                             ║
+║  ───────────────────────────────────────────────────────  ║
+║  NAME     : JAYANT BHATIA                                  ║
+║  ROLE     : AI Systems & Backend Engineer                  ║
+║  FOCUS    : Agentic AI · RAG · Python · FastAPI · Security ║
+║  STATUS   : ONLINE                                         ║
+║  ───────────────────────────────────────────────────────  ║
+║                                                             ║
+║  [READY]                                                   ║
+║                                                             ║
+╚═══════════════════════════════════════════════════════════╝
+```
 
-<a href="https://github.com/jayant132"><img src="https://img.shields.io/badge/GitHub-jayant132-0F172A?style=for-the-badge&logo=github&logoColor=14B8A6" alt="GitHub"></a>
-<a href="https://www.linkedin.com/in/jayantbhatiaa"><img src="https://img.shields.io/badge/LinkedIn-Connect-0F172A?style=for-the-badge&logo=linkedin&logoColor=14B8A6" alt="LinkedIn"></a>
-<a href="mailto:jayantbhatia44@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_Out-0F172A?style=for-the-badge&logo=gmail&logoColor=14B8A6" alt="Email"></a>
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=19&duration=2800&pause=900&color=14B8A6&center=true&vCenter=true&width=680&lines=Generative+AI+%2B+Agentic+Systems;RAG+pipelines+that+don't+hallucinate+silently;Natural+language+%E2%86%92+SQL+%E2%86%92+action;Red-teaming+the+agents+I+build+before+you+do" alt="Typing SVG" />
-
-<br>
-
-`AI ENGINEER`  ·  `AGENTIC SYSTEMS`  ·  `BACKEND`  ·  `AI SECURITY`
+**[GitHub](https://github.com/jayant132) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/jayantbhatiaa) &nbsp;·&nbsp; [Email](mailto:jayantbhatia44@gmail.com)**
 
 </div>
 
 <br>
 
-## `whoami`
-
-I build the layer between an LLM and something people can actually rely on — retrieval that's grounded, agents that fail safely, and backend systems that hold up when a model call is slow, wrong, or actively attacked.
-
-The model call is the easy part. The interesting engineering is everywhere around it.
-
-<table>
-<tr>
-<td width="58%" valign="top">
-
-```python
-class JayantBhatia:
-    focus      = ["Agentic AI", "RAG", "Backend Systems", "AI Security"]
-    stack      = ["Python", "FastAPI", "LangGraph", "PostgreSQL"]
-    background = "Software Engineering → AI Engineering"
-
-    def philosophy(self) -> str:
-        return (
-            "An agent is only as trustworthy as its worst-case "
-            "behavior under adversarial input — I test for that "
-            "before I ship anything."
-        )
+```
+> loading manifesto.md.................. [ OK ]
 ```
 
-</td>
-<td width="42%" valign="top">
-
-**Right now:**
-- 🔴 Red-teaming my own agents before anyone else does
-- 🗣️ Natural language → SQL → real database actions
-- 🧩 Multi-agent orchestration with LangGraph
-- 🗄️ RAG grounded in pgvector, not vibes
-
-</td>
-</tr>
-</table>
+> I build the layer between an LLM and something people can actually rely on —
+> retrieval that's grounded, agents that fail safely, and backend systems that
+> hold up when a model call is slow, wrong, or actively attacked.
+>
+> The model call is the easy part. The interesting engineering happens everywhere
+> around it — and I test my own agents adversarially before anyone else does.
 
 <br>
 
-## Flagship builds
+```
+> reading config.yaml................... [ OK ]
+```
 
-Every project here ships a number, not an adjective. If a claim can't be measured, it isn't in this section.
+```yaml
+role:        AI Systems & Backend Engineer
+background:  Software Engineering → AI Engineering
+stack:       [Python, FastAPI, LangGraph, PostgreSQL, pgvector, Docker]
+principle:   business logic stays deterministic — the LLM only runs where
+             reasoning or generation does work an if-statement can't
+status:      open to AI Engineering & Backend Engineering roles
+             remote-friendly · open to relocation
+```
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<br>
 
-### 🛡️ Agentic Red Team Framework
-*What happens when someone actively tries to break a tool-using agent?*
+## `> mounting /flagship-builds ........... [ OK ]`
 
-Attacks agents across 4 tool surfaces — web search, filesystem, database, external API — with 7 attack classes: prompt injection, privilege escalation, data exfiltration, excessive agency. Scored on a 4-level rubric, not pass/fail.
+Every project below reports a number, not an adjective. No measurement, no mention.
 
-|  | Undefended | Defended |
-|---|:---:|:---:|
-| Mock backend | 0 / 7 | **6 / 7** |
-| Ollama (llama3.2:1b) | 6 / 7 | **7 / 7** |
+<br>
 
-CI-gated at an 85% defended-pass threshold. Mapped to OWASP's Agentic AI threat taxonomy.
+```
+> booting module: agentic-red-team-framework .......... [ OK ]
+```
 
-`Python` `ReAct loop` `Ollama` `pytest` `GitHub Actions`
+**🛡️ Agentic Red Team Framework** — *what happens when someone actively tries to break a tool-using agent?*
 
-**[→ View repo](https://github.com/jayant132/Agentic-Red-Team-Framework)**
+Attacks agents across 4 tool surfaces (web search, filesystem, database, external API) with 7 attack classes — prompt injection, privilege escalation, data exfiltration, excessive agency. Scored on a 4-level outcome rubric, not pass/fail. CI-gated at an 85% defended-pass threshold. Mapped to OWASP's Agentic AI threat taxonomy.
 
-</td>
-<td width="50%" valign="top">
+```
+[BENCHMARK RESULTS]
+  backend                undefended    defended
+  ─────────────────────────────────────────────
+  mock                      0/7        6/7  [PASS]
+  ollama (llama3.2:1b)      6/7        7/7  [PASS]
+```
 
-### 🔐 MCP Guardrail
-*Most agent red-teaming skips the tool catalog — this attacks it directly.*
+`Python` `ReAct loop` `Ollama` `pytest` `GitHub Actions` → **[view repo](https://github.com/jayant132/Agentic-Red-Team-Framework)**
+
+<br>
+
+```
+> booting module: mcp-guardrail ........................ [ OK ]
+```
+
+**🔐 MCP Guardrail** — *most agent red-teaming skips the tool catalog itself. this attacks it directly.*
 
 Targets the MCP trust boundary: tool-description poisoning, indirect injection via tool output, credential exposure, allowlist bypass. Same rubric discipline as the framework above.
 
-|  | Undefended | Defended |
-|---|:---:|:---:|
-| Mock backend | 0 / 5 | **5 / 5** |
-| Ollama (llama3.2:1b) | 5 / 5 | **5 / 5** |
-
-One honest finding: a sanitizer gap (paraphrase evasion) slipped past the first defense layer, caught only by an independent allowlist check — the kind of failure most portfolios quietly omit.
-
-`Python` `MCP Protocol` `Ollama` `pytest`
-
-**[→ View repo](https://github.com/jayant132/MCP-Guardrail)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🗣️ SQL AGENT LLM
-*Natural language in. A safe, executed query out.*
-
-An LLM agent that translates plain-English questions into SQL, executes them, and returns results — the same tool-calling discipline as the red-team projects above, applied to a real, everyday agentic use case rather than a synthetic benchmark.
-
-`LLM tool calling` `SQL generation` `Python`
-
-**[→ View repo](https://github.com/jayant132/Sql_Agent_llm)**
-
-</td>
-<td width="50%" valign="top">
-
-### ✈️ Multi-Agent Flight Booking Assistant
-An orchestrator delegates across **search, booking, and support agents**, each scoped to its own tools — instead of one model trying to hold the entire workflow in a single context window.
-
 ```
-        USER
-         │
-   ORCHESTRATOR
-   ╱     │     ╲
-SEARCH BOOKING SUPPORT
-   ╲     │     ╱
-     TOOLS → RESULT
+[BENCHMARK RESULTS]
+  backend                undefended    defended
+  ─────────────────────────────────────────────
+  mock                      0/5        5/5  [PASS]
+  ollama (llama3.2:1b)      5/5        5/5  [PASS]
+
+[WARNING LOG]
+  sanitizer gap detected: paraphrase evasion slipped past the first
+  defense layer — caught only by an independent allowlist check.
+  logged honestly instead of hidden, because that's the failure
+  mode that actually matters.
 ```
 
-`Multi-agent orchestration` `Tool calling` `Python`
-
-**[→ View repo](https://github.com/jayant132/Multi-Agent-AI-Flight-Booking-Assistant-)**
-
-</td>
-</tr>
-</table>
+`Python` `MCP Protocol` `Ollama` `pytest` → **[view repo](https://github.com/jayant132/MCP-Guardrail)**
 
 <br>
 
-## Also shipped
+```
+> booting module: sql-agent-llm ......................... [ OK ]
+```
+
+**🗣️ SQL AGENT LLM** — *natural language in. a safe, executed query out.*
+
+An LLM agent that translates plain-English questions into SQL, executes them, and returns results — the same tool-calling discipline as the projects above, applied to a real everyday agentic workflow instead of a synthetic benchmark.
+
+`LLM tool calling` `SQL generation` `Python` → **[view repo](https://github.com/jayant132/Sql_Agent_llm)**
+
+<br>
+
+```
+> booting module: flight-booking-assistant .............. [ OK ]
+```
+
+**✈️ Multi-Agent Flight Booking Assistant**
+
+```
+[PROCESS TREE]
+ORCHESTRATOR
+   ├── SEARCH_AGENT   → flight lookup tools
+   ├── BOOKING_AGENT  → reservation tools
+   └── SUPPORT_AGENT  → post-booking tools
+```
+
+One orchestrator delegates to three scoped agents instead of forcing a single model to hold the entire workflow in one context window.
+
+`Multi-agent orchestration` `Tool calling` `Python` → **[view repo](https://github.com/jayant132/Multi-Agent-AI-Flight-Booking-Assistant-)**
+
+<br>
+
+## `> mounting /also-shipped ............... [ OK ]`
 
 <table>
 <tr>
@@ -148,33 +149,30 @@ SEARCH BOOKING SUPPORT
 
 **🧾 Invoice Intelligence**
 
-Two ML pipelines on real procurement data. Engineering a single feature — the invoice/PO dollar gap — took flagged-invoice recall from **17% → 99%** on the same dataset.
+One engineered feature — the invoice/PO dollar gap — took flagged-invoice recall from **17% → 99%** on the same dataset.
 
-`Scikit-learn` `Pandas` `SQLite`
-
-**[→ View repo](https://github.com/jayant132/Invoice-Intelligence-ML-Project)**
-
-</td>
-<td width="33%" valign="top">
-
-**🫁 Tuberculosis Detection ML**
-
-Chest X-ray classification with a structured pipeline — separate `src`, `experiments`, and `docs` — rather than a single notebook.
-
-`Computer Vision` `Model Evaluation`
-
-**[→ View repo](https://github.com/jayant132/Tuberculosis-Detection-ML)**
+`Scikit-learn` `Pandas`
+**[→ repo](https://github.com/jayant132/Invoice-Intelligence-ML-Project)**
 
 </td>
 <td width="33%" valign="top">
 
-**📊 JPMorgan Forage — Quant Research**
+**🫁 Tuberculosis Detection**
 
-Completed JPMorgan Chase's official Forage quantitative-research job simulation.
+Chest X-ray classification with a real pipeline structure — separate `src`, `experiments`, `docs`.
+
+`Computer Vision`
+**[→ repo](https://github.com/jayant132/Tuberculosis-Detection-ML)**
+
+</td>
+<td width="33%" valign="top">
+
+**📊 JPMorgan Forage**
+
+Completed JPMorgan Chase's official Forage quant-research job simulation.
 
 `Applied Quant Research`
-
-**[→ View repo](https://github.com/jayant132/-JP-Morgan-Quantitative-Research-Virtual-Internship)**
+**[→ repo](https://github.com/jayant132/-JP-Morgan-Quantitative-Research-Virtual-Internship)**
 
 </td>
 </tr>
@@ -182,55 +180,62 @@ Completed JPMorgan Chase's official Forage quantitative-research job simulation.
 
 <br>
 
-## How the layers fit together
+## `> reading system_architecture.log ...... [ OK ]`
 
-<div align="center">
-
-| Layer | What lives here |
-|---|---|
-| **Application** | Flutter · React Native · Web clients |
-| **Backend** | FastAPI · AsyncIO · REST / WebSocket · Auth & validation |
-| **AI / Agents** | LLMs · RAG · LangGraph orchestration · Tool calling |
-| **Data** | PostgreSQL · pgvector · Redis · SQLite |
-
-</div>
-
-**The rule I hold to:** business rules and validation stay in deterministic code. The LLM is called only where reasoning or language generation is doing work no `if` statement could — not because routing everything through a model is fashionable.
-
-<br>
-
-## Stack
-
-<table>
-<tr><th align="left" width="20%">Domain</th><th align="left">Tools</th></tr>
-<tr><td><b>AI / Agentic</b></td><td>LangGraph · LangChain · Google ADK · RAG · Tool calling · Prompt engineering</td></tr>
-<tr><td><b>AI Security</b></td><td>Prompt-injection defense · agent red-teaming · MCP trust-boundary testing · OWASP GenAI mapping</td></tr>
-<tr><td><b>Backend</b></td><td>Python · FastAPI · AsyncIO · REST · WebSockets · SSE</td></tr>
-<tr><td><b>Data</b></td><td>PostgreSQL · pgvector · Redis · MySQL · SQLite</td></tr>
-<tr><td><b>ML</b></td><td>Scikit-learn · XGBoost · Pandas · NumPy</td></tr>
-<tr><td><b>Infra</b></td><td>Docker · Docker Compose · GitHub Actions</td></tr>
-<tr><td><b>Apps</b></td><td>Flutter · React Native · React</td></tr>
-</table>
+```
+┌───────────────────────────────────────────────┐
+│  APPLICATION   Flutter · React Native · Web    │
+├───────────────────────────────────────────────┤
+│  BACKEND       FastAPI · AsyncIO · REST / WS   │
+├───────────────────────────────────────────────┤
+│  AI / AGENTS   LLMs · RAG · LangGraph · Tools  │
+├───────────────────────────────────────────────┤
+│  DATA          PostgreSQL · pgvector · Redis   │
+└───────────────────────────────────────────────┘
+```
 
 <br>
 
-<div align="center">
+## `> loading stack.yaml ................... [ OK ]`
 
-<img src="https://github-readme-stats.vercel.app/api?username=jayant132&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=14B8A6&icon_color=14B8A6&text_color=E2E8F0" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jayant132&theme=tokyonight&hide_border=true&background=0F172A&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6" height="165"/>
+```yaml
+ai_agentic:    [LangGraph, LangChain, Google ADK, RAG, Tool Calling, Prompt Engineering]
+ai_security:   [Prompt-Injection Defense, Agent Red-Teaming, MCP Trust Boundaries, OWASP GenAI]
+backend:       [Python, FastAPI, AsyncIO, REST, WebSockets, SSE]
+data:          [PostgreSQL, pgvector, Redis, MySQL, SQLite]
+ml:            [Scikit-learn, XGBoost, Pandas, NumPy]
+infra:         [Docker, Docker Compose, GitHub Actions]
+apps:          [Flutter, React Native, React]
+```
 
-</div>
+<br>
+
+```
+> running final diagnostics ............. [ OK ]
+```
+
+```
+[SYSTEM STATUS]
+  repositories        : 21
+  primary language    : Python
+  focus               : agentic systems tested adversarially, not just demoed
+  status              : OPEN TO OPPORTUNITIES
+  roles               : AI Engineering · Backend Engineering
+  availability        : remote-friendly · open to relocation
+
+[END OF LOG]
+```
 
 <br>
 
 <div align="center">
 
-### Open to AI Engineering & Backend Engineering roles — remote-friendly, open to relocation
+```
+╔═══════════════════════════════════════════════════════════╗
+║  > connection request..................... [ SEND ]        ║
+╚═══════════════════════════════════════════════════════════╝
+```
 
-<a href="https://github.com/jayant132"><img src="https://img.shields.io/badge/GitHub-jayant132-0F172A?style=for-the-badge&logo=github&logoColor=14B8A6"></a>
-<a href="https://www.linkedin.com/in/jayantbhatiaa"><img src="https://img.shields.io/badge/LinkedIn-Connect-0F172A?style=for-the-badge&logo=linkedin&logoColor=14B8A6"></a>
-<a href="mailto:jayantbhatia44@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0F172A?style=for-the-badge&logo=gmail&logoColor=14B8A6"></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14B8A6,100:0F172A&height=100&section=footer" width="100%"/>
+**[GitHub](https://github.com/jayant132) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/jayantbhatiaa) &nbsp;·&nbsp; [Email](mailto:jayantbhatia44@gmail.com)**
 
 </div>
