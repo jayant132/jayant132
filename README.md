@@ -4,7 +4,7 @@
 
 ### AI Systems & Backend Engineer
 
-**Agentic AI · RAG · Python · FastAPI · AI Security**
+**Agentic AI · RAG · Python · FastAPI · Multi-Agent Systems**
 
 <br>
 
@@ -18,7 +18,7 @@
 
 <div align="center">
 
-*I build the layer between an LLM and something people can actually rely on — retrieval that's grounded, agents that fail safely, and backend systems that hold up under load and under attack.*
+*I build the layer between an LLM and something people can actually rely on — retrieval that's grounded, agents that fail safely, and backend systems instrumented enough that when something's slow, I can find out why instead of guessing.*
 
 **The model call is the easy part. The engineering happens everywhere around it.**
 
@@ -34,44 +34,53 @@
 
 <br><br>
 
-## 🛡️ Flagship Builds
+## 🧩 Flagship Builds
 
-*Every project below reports a number, not an adjective.*
-
-<br>
-
-### Agentic Red Team Framework
-What happens when someone actively tries to break a tool-using agent? Attacks agents across 4 tool surfaces — web search, filesystem, database, external API — with 7 attack classes: prompt injection, privilege escalation, data exfiltration, excessive agency. Scored on a 4-level outcome rubric, not pass/fail, and CI-gated at an 85% defended-pass threshold.
-
-| Backend | Undefended | Defended |
-|:--|:--:|:--:|
-| Mock | 0 / 7 | **6 / 7** ✅ |
-| Ollama (llama3.2:1b) | 6 / 7 | **7 / 7** ✅ |
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/>
-
-**→ [View repository](https://github.com/jayant132/Agentic-Red-Team-Framework)**
+*Every project below reports a number, not an adjective — measured, not estimated.*
 
 <br>
 
-### MCP Guardrail
-Most agent red-teaming skips the tool catalog itself — this attacks it directly. Targets the MCP trust boundary: tool-description poisoning, indirect injection via tool output, credential exposure, allowlist bypass.
+### 🛰️ Agentic Compliance Copilot
+Assesses compliance readiness against internal policy documents — identifies gaps, assigns risk, and routes high-risk findings to a human for approval before anything is finalized.
 
-| Backend | Undefended | Defended |
-|:--|:--:|:--:|
-| Mock | 0 / 5 | **5 / 5** ✅ |
-| Ollama (llama3.2:1b) | 5 / 5 | **5 / 5** ✅ |
+Four agents coordinate through an explicit LangGraph state machine: an **Evidence Agent** runs as its own FastAPI process and is called over HTTP (a real agent-to-agent network boundary, not a function call), a **Risk & Gap Agent** classifies findings, and a **Critic Agent** reviews them for overreach. A deterministic guardrail — not an LLM grading its own homework — blocks any finding that cites a source outside what was actually retrieved.
 
-> ⚠️ **Documented finding:** a sanitizer gap (paraphrase evasion) slipped past the first defense layer, caught only by an independent allowlist check — logged honestly rather than hidden, because that's the failure mode that actually matters.
+| Metric | Result |
+|:--|:--:|
+| Retrieval accuracy | **20 / 20 (100%)** |
+| Groundedness pass rate | **19 / 20 (95%)** |
+| Hallucination rate | **1 / 20 (5%)** |
+| Avg latency / case | **8,228 ms** |
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/MCP_Protocol-6E56CF?style=flat-square"/> <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/>
+**Real fix, found by reading the metrics, not guessing:** instrumentation showed the retrieval step re-creating a Pinecone client on every single call. Caching it at module load cut retrieval latency by **~37%** (9,200 ms → 5,784 ms).
 
-**→ [View repository](https://github.com/jayant132/MCP-Guardrail)**
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=google&logoColor=white"/> <img src="https://img.shields.io/badge/LangGraph-1C1C1C?style=flat-square"/> <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+
+**→ [View repository](https://github.com/jayant132/Agentic-Compliance-Copilot)**
 
 <br>
 
-### SQL AGENT LLM
-Natural language in, a safe executed query out. Translates plain-English questions into SQL, executes them, and returns results — the same tool-calling discipline as the projects above, applied to a real everyday agentic workflow instead of a synthetic benchmark.
+### 🔎 DELVE — Deep Evidence & Log Verification Engine
+An AI incident-investigation platform. Give it a plain-English incident description; it dispatches specialized agents to pull evidence from logs, metrics, deployments, and historical incidents **in parallel**, then synthesizes a root-cause hypothesis — labeled `low`/`medium`/`high` confidence, never presented as a confirmed fact. Nothing auto-executes without human approval.
+
+| Step | Observed Latency |
+|:--|:--:|
+| Triage | **~2–4 s** |
+| Full investigation (9 LLM calls, 4 parallel agents) | **~25–45 s** |
+| Historical-incident retrieval (local ChromaDB) | **< 100 ms** |
+
+**Proof the retrieval is actually semantic, not keyword-matching:** given a payment-service DB-pool-exhaustion incident, it correctly ranked the matching historical postmortem first — and correctly ranked a same-service-but-different-cause incident lower.
+
+Built entirely on a free-tier stack (Groq, ChromaDB, local embeddings) with CI on every push, and ships an honest "known limitations" section rather than hiding them.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=google&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/ChromaDB-6E56CF?style=flat-square"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+
+**→ [View repository](https://github.com/jayant132/Delve-Deep-Evidence-Log-Verification-Engine-)**
+
+<br>
+
+### 🗣️ SQL AGENT LLM
+Natural language in, a safe executed query out. Translates plain-English questions into SQL, executes them, and returns results — real tool-calling discipline applied to an everyday agentic workflow.
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/LLM_Tool_Calling-14B8A6?style=flat-square"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
 
@@ -79,7 +88,7 @@ Natural language in, a safe executed query out. Translates plain-English questio
 
 <br>
 
-### Multi-Agent Flight Booking Assistant
+### ✈️ Multi-Agent Flight Booking Assistant
 One orchestrator delegates to three scoped agents — search, booking, support — instead of forcing a single model to hold the entire workflow in one context window.
 
 | Agent | Scope |
@@ -88,7 +97,7 @@ One orchestrator delegates to three scoped agents — search, booking, support �
 | `BOOKING_AGENT` | Reservation tools |
 | `SUPPORT_AGENT` | Post-booking tools |
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Multi--Agent_Orchestration-14B8A6?style=flat-square"/> <img src="https://img.shields.io/badge/Tool_Calling-14B8A6?style=flat-square"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Multi--Agent_Orchestration-14B8A6?style=flat-square"/>
 
 **→ [View repository](https://github.com/jayant132/Multi-Agent-AI-Flight-Booking-Assistant-)**
 
@@ -98,9 +107,11 @@ One orchestrator delegates to three scoped agents — search, booking, support �
 
 | Project | What it does | Stack |
 |:--|:--|:--|
-| **[Invoice Intelligence](https://github.com/jayant132/Invoice-Intelligence-ML-Project)** | One engineered feature — the invoice/PO dollar gap — took flagged-invoice recall from **17% → 99%** | Scikit-learn · Pandas · SQLite |
-| **[Tuberculosis Detection ML](https://github.com/jayant132/Tuberculosis-Detection-ML)** | Chest X-ray classification with a real pipeline structure — separate `src`, `experiments`, `docs` | Computer Vision · Model Evaluation |
-| **[JPMorgan Forage — Quant Research](https://github.com/jayant132/-JP-Morgan-Quantitative-Research-Virtual-Internship)** | Completed JPMorgan Chase's official Forage quant-research job simulation | Applied Quant Research |
+| **[Agentic Red Team Framework](https://github.com/jayant132/Agentic-Red-Team-Framework)** | Attacks tool-using agents across 7 classes; CI-gated at an 85% defended-pass threshold | Python · Ollama · pytest |
+| **[MCP Guardrail](https://github.com/jayant132/MCP-Guardrail)** | Tests the MCP tool-catalog trust boundary directly | Python · MCP Protocol |
+| **[Invoice Intelligence](https://github.com/jayant132/Invoice-Intelligence-ML-Project)** | One engineered feature took flagged-invoice recall from **17% → 99%** | Scikit-learn · Pandas |
+| **[Tuberculosis Detection ML](https://github.com/jayant132/Tuberculosis-Detection-ML)** | Chest X-ray classification with a real pipeline structure | Computer Vision |
+| **[JPMorgan Forage — Quant Research](https://github.com/jayant132/-JP-Morgan-Quantitative-Research-Virtual-Internship)** | JPMorgan Chase's official Forage quant-research simulation | Applied Quant Research |
 
 <br><br>
 
@@ -110,10 +121,10 @@ One orchestrator delegates to three scoped agents — search, booking, support �
 |:--|:--|
 | **Application** | Flutter · React Native · Web |
 | **Backend** | FastAPI · AsyncIO · REST / WebSocket |
-| **AI / Agents** | LLMs · RAG · LangGraph · Tool Calling |
-| **Data** | PostgreSQL · pgvector · Redis · SQLite |
+| **AI / Agents** | LLMs · RAG · LangGraph · Google ADK · Tool Calling |
+| **Data** | PostgreSQL · pgvector · ChromaDB · Redis |
 
-**The rule I hold to:** business logic stays deterministic. The LLM only runs where reasoning or generation is doing work an `if` statement can't.
+**The rule I hold to:** business logic stays deterministic. The LLM only runs where reasoning or generation is doing work an `if` statement can't — and every claim an agent makes should trace back to something it can point to.
 
 <br><br>
 
@@ -121,10 +132,10 @@ One orchestrator delegates to three scoped agents — search, booking, support �
 
 | Domain | Tools |
 |:--|:--|
-| **AI / Agentic** | LangGraph · LangChain · Google ADK · RAG · Tool Calling · Prompt Engineering |
-| **AI Security** | Prompt-injection defense · Agent red-teaming · MCP trust-boundary testing · OWASP GenAI mapping |
+| **AI / Agentic** | LangGraph · Google ADK · LangChain · RAG · Tool Calling · Multi-Agent Orchestration |
+| **AI Reliability** | Deterministic guardrails · Groundedness evaluation · Human-in-the-loop approval · Observability |
 | **Backend** | Python · FastAPI · AsyncIO · REST · WebSockets · SSE |
-| **Data** | PostgreSQL · pgvector · Redis · MySQL · SQLite |
+| **Data** | PostgreSQL · pgvector · ChromaDB · Redis · MySQL · SQLite |
 | **ML** | Scikit-learn · XGBoost · Pandas · NumPy |
 | **Infra** | Docker · Docker Compose · GitHub Actions |
 
