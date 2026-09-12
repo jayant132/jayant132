@@ -1,142 +1,55 @@
 <div align="center">
 
-# Jayant Bhatia
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:14B8A6&height=190&section=header&text=JAYANT%20BHATIA&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=AI%20Systems%20%26%20Backend%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
-### AI Systems & Software Engineer
+<a href="https://github.com/jayant132"><img src="https://img.shields.io/badge/GitHub-jayant132-0F172A?style=for-the-badge&logo=github&logoColor=14B8A6" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/jayantbhatiaa"><img src="https://img.shields.io/badge/LinkedIn-Connect-0F172A?style=for-the-badge&logo=linkedin&logoColor=14B8A6" alt="LinkedIn"></a>
+<a href="mailto:jayantbhatia44@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_Out-0F172A?style=for-the-badge&logo=gmail&logoColor=14B8A6" alt="Email"></a>
 
-**Generative AI · Agentic AI · RAG · Python · FastAPI · Distributed Systems**
+<br><br>
 
-Building production-grade AI and software systems — from LLM-powered agents, RAG pipelines,
-and model inference to scalable backend APIs, data systems, and cross-platform applications.
-
-<p>
-  <a href="https://github.com/jayant132">
-    <img src="https://img.shields.io/badge/GitHub-jayant132-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://www.linkedin.com/in/jayantbhatiaa">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:jayantbhatia44@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=jayant132&label=PROFILE+VIEWS&color=39FF14&style=for-the-badge&labelColor=111111" alt="Profile Views">
-</p>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=19&duration=2800&pause=900&color=14B8A6&center=true&vCenter=true&width=680&lines=Generative+AI+%2B+Agentic+Systems;RAG+pipelines+that+don't+hallucinate+silently;Natural+language+%E2%86%92+SQL+%E2%86%92+action;Red-teaming+the+agents+I+build+before+you+do" alt="Typing SVG" />
 
 <br>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-1C1C1C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+`AI ENGINEER`  ·  `AGENTIC SYSTEMS`  ·  `BACKEND`  ·  `AI SECURITY`
 
 </div>
 
 <br>
 
-## About Me
+## `whoami`
 
-I'm a **Software Engineer focused on Generative AI, Agentic AI, backend engineering, and machine learning systems.**
+I build the layer between an LLM and something people can actually rely on — retrieval that's grounded, agents that fail safely, and backend systems that hold up when a model call is slow, wrong, or actively attacked.
 
-My work spans the full lifecycle of AI-powered applications:
-
-- **Generative AI & Agentic Systems** — LLM applications, RAG pipelines, multi-agent workflows, tool calling, structured outputs, and evaluation
-- **Backend & API Engineering** — Python, FastAPI, async services, REST APIs, WebSockets, authentication, validation, caching, and database integration
-- **Data & ML Engineering** — data preprocessing, feature engineering, model development, evaluation, inference pipelines, and model serving
-- **Production Engineering** — Docker, CI/CD, automated testing, observability, and production-oriented system design
-- **Application Development** — Flutter, React Native, and web apps integrated with AI and backend services
-
-> My focus isn't only on building models or prototypes — it's on turning AI capabilities into
-> **reliable software systems** that can be integrated, tested, deployed, and consumed by real applications.
-
-<br>
-
-## System Architecture
-
-<table>
-<tr><td align="center">📱&nbsp;&nbsp;<b>Application Layer</b><br/><sub>Flutter · React Native · Web</sub></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center">⚙️&nbsp;&nbsp;<b>Backend Layer</b><br/><sub>FastAPI · Python · Pydantic · AsyncIO · REST / WebSocket</sub></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center">🤖&nbsp;&nbsp;<b>AI / ML Layer</b><br/><sub>LLMs · RAG · LangGraph · Google ADK · Scikit-Learn</sub></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center">🗄️&nbsp;&nbsp;<b>Data Layer</b><br/><sub>PostgreSQL · Redis · pgvector · SQLite</sub></td></tr>
-</table>
-
-**Engineering approach:** combine deterministic software engineering with AI capabilities —
-traditional code handles business rules, validation, and system control, while LLMs are used
-where reasoning, language understanding, and generation provide measurable value.
-
-<br>
-
-## What I Build
+The model call is the easy part. The interesting engineering is everywhere around it.
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="58%" valign="top">
 
-### 🤖 Generative AI & Agentic Systems
-Designing AI applications around LLMs, RAG, agents, and tool-enabled workflows.
+```python
+class JayantBhatia:
+    focus      = ["Agentic AI", "RAG", "Backend Systems", "AI Security"]
+    stack      = ["Python", "FastAPI", "LangGraph", "PostgreSQL"]
+    background = "Software Engineering → AI Engineering"
 
-- Multi-agent systems (LangGraph, state-based orchestration)
-- Retrieval-Augmented Generation pipelines
-- Vector search & semantic retrieval
-- Tool calling & structured outputs (Pydantic / JSON Schema)
-- Prompt engineering & context management
-- LLM evaluation & regression testing
-- Guardrails & prompt-injection defenses
-- AI/LLM red-teaming & adversarial testing
-- Local and cloud model inference
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Backend & Distributed Systems
-Building reliable backend services around AI and application logic.
-
-- Python & FastAPI
-- Async programming (AsyncIO)
-- REST API design
-- WebSockets & Server-Sent Events
-- PostgreSQL / MySQL / SQLite
-- Redis caching & state management
-- Background workers & queues
-- Docker, Docker Compose & CI/CD
+    def philosophy(self) -> str:
+        return (
+            "An agent is only as trustworthy as its worst-case "
+            "behavior under adversarial input — I test for that "
+            "before I ship anything."
+        )
+```
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
 
-### 🧠 Machine Learning
-End-to-end ML pipelines from data preparation through inference.
-
-- Exploratory data analysis
-- Data preprocessing & feature engineering
-- Classification & regression
-- Random Forest / gradient-boosting models
-- Model evaluation & threshold optimization
-- Precision / recall analysis & cross-validation
-- Model serialization & inference APIs
-
-</td>
-<td width="50%" valign="top">
-
-### 📱 Application Engineering
-Connecting backend and AI services to production-grade clients.
-
-- Flutter & React Native
-- ReactJS
-- REST API & WebSocket integration
-- State management & local persistence
-- Authentication
-- Mobile app deployment
+**Right now:**
+- 🔴 Red-teaming my own agents before anyone else does
+- 🗣️ Natural language → SQL → real database actions
+- 🧩 Multi-agent orchestration with LangGraph
+- 🗄️ RAG grounded in pgvector, not vibes
 
 </td>
 </tr>
@@ -144,114 +57,180 @@ Connecting backend and AI services to production-grade clients.
 
 <br>
 
-## Featured Projects
+## Flagship builds
+
+Every project here ships a number, not an adjective. If a claim can't be measured, it isn't in this section.
 
 <table>
-<tr><td width="50%" valign="top">
+<tr>
+<td width="50%" valign="top">
 
 ### 🛡️ Agentic Red Team Framework
-A production-shaped red-team harness for tool-using LLM agents.
+*What happens when someone actively tries to break a tool-using agent?*
 
-- 4 tools attacked: web search, file system, database, external API
-- 7 attacks: direct/indirect prompt injection, tool abuse, privilege escalation, data exfiltration, excessive agency
-- 4-level outcome rubric (`BLOCKED` → `FULL_SUCCESS`), not pass/fail
-- CI security gate — blocks merges below an 85% defended pass-rate threshold
-- Benchmarked on two backends: a deterministic mock and a real local LLM (Ollama)
+Attacks agents across 4 tool surfaces — web search, filesystem, database, external API — with 7 attack classes: prompt injection, privilege escalation, data exfiltration, excessive agency. Scored on a 4-level rubric, not pass/fail.
 
-| Mode | Backend | Pass Rate |
-|---|---|---|
-| Baseline (no defenses) | Mock | 0/7 (0%) |
-| Defended | Mock | 6/7 (86%) ✅ |
-| Baseline (no defenses) | Ollama (llama3.2:1b) | 6/7 (86%) ✅ |
-| Defended | Ollama (llama3.2:1b) | 7/7 (100%) ✅ |
+|  | Undefended | Defended |
+|---|:---:|:---:|
+| Mock backend | 0 / 7 | **6 / 7** |
+| Ollama (llama3.2:1b) | 6 / 7 | **7 / 7** |
 
-**Stack:** Python · ReAct agent loop · Ollama · SQLite · pytest · GitHub Actions
-**Mapped to:** OWASP Agentic AI threat categories
+CI-gated at an 85% defended-pass threshold. Mapped to OWASP's Agentic AI threat taxonomy.
 
-**Repo:** [github.com/jayant132/Agentic-Red-Team-Framework](https://github.com/jayant132/Agentic-Red-Team-Framework)
+`Python` `ReAct loop` `Ollama` `pytest` `GitHub Actions`
+
+**[→ View repo](https://github.com/jayant132/Agentic-Red-Team-Framework)**
 
 </td>
 <td width="50%" valign="top">
 
 ### 🔐 MCP Guardrail
-A security scanner for MCP (Model Context Protocol) servers and clients — testing the tool-catalog trust boundary that most AI red-team tooling skips.
+*Most agent red-teaming skips the tool catalog — this attacks it directly.*
 
-- 5 attacks: tool-description poisoning, indirect injection via tool output, credential exposure, trust-boundary violation, allowlist bypass
-- Same 4-level rubric and baseline-vs-defended discipline as the companion project above
-- Defense-in-depth proven on a real run: a documented sanitizer gap (paraphrase evasion) caught by an independent allowlist layer
-- CI security gate on every push
+Targets the MCP trust boundary: tool-description poisoning, indirect injection via tool output, credential exposure, allowlist bypass. Same rubric discipline as the framework above.
 
-| Mode | Backend | Pass Rate |
-|---|---|---|
-| Baseline (no defenses) | Mock | 0/5 (0%) |
-| Defended | Mock | 5/5 (100%) ✅ |
-| Baseline / Defended | Ollama (llama3.2:1b) | 5/5 (100%) ✅ |
+|  | Undefended | Defended |
+|---|:---:|:---:|
+| Mock backend | 0 / 5 | **5 / 5** |
+| Ollama (llama3.2:1b) | 5 / 5 | **5 / 5** |
 
-**Stack:** Python · MCP protocol · Ollama · pytest · GitHub Actions
-**Mapped to:** OWASP GenAI LLM Top 10 (2026)
+One honest finding: a sanitizer gap (paraphrase evasion) slipped past the first defense layer, caught only by an independent allowlist check — the kind of failure most portfolios quietly omit.
 
-**Repo:** [github.com/jayant132/MCP-Guardrail](https://github.com/jayant132/MCP-Guardrail)
+`Python` `MCP Protocol` `Ollama` `pytest`
+
+**[→ View repo](https://github.com/jayant132/MCP-Guardrail)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🗣️ SQL AGENT LLM
+*Natural language in. A safe, executed query out.*
+
+An LLM agent that translates plain-English questions into SQL, executes them, and returns results — the same tool-calling discipline as the red-team projects above, applied to a real, everyday agentic use case rather than a synthetic benchmark.
+
+`LLM tool calling` `SQL generation` `Python`
+
+**[→ View repo](https://github.com/jayant132/Sql_Agent_llm)**
+
+</td>
+<td width="50%" valign="top">
+
+### ✈️ Multi-Agent Flight Booking Assistant
+An orchestrator delegates across **search, booking, and support agents**, each scoped to its own tools — instead of one model trying to hold the entire workflow in a single context window.
+
+```
+        USER
+         │
+   ORCHESTRATOR
+   ╱     │     ╲
+SEARCH BOOKING SUPPORT
+   ╲     │     ╱
+     TOOLS → RESULT
+```
+
+`Multi-agent orchestration` `Tool calling` `Python`
+
+**[→ View repo](https://github.com/jayant132/Multi-Agent-AI-Flight-Booking-Assistant-)**
 
 </td>
 </tr>
 </table>
 
-> Both projects report real, reproducible numbers — including baselines proving the attacks work, and honestly-documented limitations rather than only "everything blocked" results.
-
 <br>
 
-## Engineering Stack
+## Also shipped
 
 <table>
-<tr><th align="left">Category</th><th align="left">Technologies</th></tr>
-<tr><td><b>Generative AI</b></td><td>LLMs, RAG, Agentic AI, Prompt Engineering, Tool Calling</td></tr>
-<tr><td><b>AI Frameworks</b></td><td>LangGraph, LangChain, Google ADK</td></tr>
-<tr><td><b>AI Security</b></td><td>Prompt-injection defense, red-teaming, MCP trust-boundary testing, OWASP GenAI mapping</td></tr>
-<tr><td><b>Backend</b></td><td>Python, FastAPI, AsyncIO, REST, WebSockets, SSE</td></tr>
-<tr><td><b>Databases</b></td><td>PostgreSQL, MySQL, SQLite, Redis, pgvector</td></tr>
-<tr><td><b>Machine Learning</b></td><td>Scikit-Learn, XGBoost, Pandas, NumPy</td></tr>
-<tr><td><b>Infrastructure</b></td><td>Docker, Docker Compose, GitHub Actions</td></tr>
-<tr><td><b>Applications</b></td><td>Flutter, React Native, ReactJS</td></tr>
-<tr><td><b>Engineering Practice</b></td><td>Git, Linux, Automated Testing, CI/CD, API Design</td></tr>
+<tr>
+<td width="33%" valign="top">
+
+**🧾 Invoice Intelligence**
+
+Two ML pipelines on real procurement data. Engineering a single feature — the invoice/PO dollar gap — took flagged-invoice recall from **17% → 99%** on the same dataset.
+
+`Scikit-learn` `Pandas` `SQLite`
+
+**[→ View repo](https://github.com/jayant132/Invoice-Intelligence-ML-Project)**
+
+</td>
+<td width="33%" valign="top">
+
+**🫁 Tuberculosis Detection ML**
+
+Chest X-ray classification with a structured pipeline — separate `src`, `experiments`, and `docs` — rather than a single notebook.
+
+`Computer Vision` `Model Evaluation`
+
+**[→ View repo](https://github.com/jayant132/Tuberculosis-Detection-ML)**
+
+</td>
+<td width="33%" valign="top">
+
+**📊 JPMorgan Forage — Quant Research**
+
+Completed JPMorgan Chase's official Forage quantitative-research job simulation.
+
+`Applied Quant Research`
+
+**[→ View repo](https://github.com/jayant132/-JP-Morgan-Quantitative-Research-Virtual-Internship)**
+
+</td>
+</tr>
 </table>
 
 <br>
 
-## Current Engineering Direction
-
-My primary focus is **production-grade AI engineering** — building systems where AI is one
-component of a larger, reliable architecture, rather than an LLM call being the entire application.
+## How the layers fit together
 
 <div align="center">
 
-`LLMs` → `RAG / Agents` → `Tool Calling` → `FastAPI Services` → `Databases & Caches` → `Docker + CI/CD` → `Production Applications`
+| Layer | What lives here |
+|---|---|
+| **Application** | Flutter · React Native · Web clients |
+| **Backend** | FastAPI · AsyncIO · REST / WebSocket · Auth & validation |
+| **AI / Agents** | LLMs · RAG · LangGraph orchestration · Tool calling |
+| **Data** | PostgreSQL · pgvector · Redis · SQLite |
+
+</div>
+
+**The rule I hold to:** business rules and validation stay in deterministic code. The LLM is called only where reasoning or language generation is doing work no `if` statement could — not because routing everything through a model is fashionable.
+
+<br>
+
+## Stack
+
+<table>
+<tr><th align="left" width="20%">Domain</th><th align="left">Tools</th></tr>
+<tr><td><b>AI / Agentic</b></td><td>LangGraph · LangChain · Google ADK · RAG · Tool calling · Prompt engineering</td></tr>
+<tr><td><b>AI Security</b></td><td>Prompt-injection defense · agent red-teaming · MCP trust-boundary testing · OWASP GenAI mapping</td></tr>
+<tr><td><b>Backend</b></td><td>Python · FastAPI · AsyncIO · REST · WebSockets · SSE</td></tr>
+<tr><td><b>Data</b></td><td>PostgreSQL · pgvector · Redis · MySQL · SQLite</td></tr>
+<tr><td><b>ML</b></td><td>Scikit-learn · XGBoost · Pandas · NumPy</td></tr>
+<tr><td><b>Infra</b></td><td>Docker · Docker Compose · GitHub Actions</td></tr>
+<tr><td><b>Apps</b></td><td>Flutter · React Native · React</td></tr>
+</table>
+
+<br>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=jayant132&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=14B8A6&icon_color=14B8A6&text_color=E2E8F0" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jayant132&theme=tokyonight&hide_border=true&background=0F172A&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6" height="165"/>
 
 </div>
 
 <br>
 
-## Currently Focused On
-
-<table>
-<tr><td width="33%" align="center">🧩<br/><b>Agentic AI Systems</b><br/><sub>LangGraph agents, tool calling, structured outputs</sub></td>
-<td width="33%" align="center">🔍<br/><b>RAG & LLM Reliability</b><br/><sub>Retrieval quality, evaluation pipelines, guardrails</sub></td>
-<td width="33%" align="center">⚙️<br/><b>Scalable Backend Systems</b><br/><sub>FastAPI, async services, databases, production infra</sub></td></tr>
-</table>
-
-<br>
-
 <div align="center">
 
-> Good AI engineering isn't about the model call — it's the backend architecture, data layer, and guardrails that make it reliable in production.
+### Open to AI Engineering & Backend Engineering roles — remote-friendly, open to relocation
 
-<br>
+<a href="https://github.com/jayant132"><img src="https://img.shields.io/badge/GitHub-jayant132-0F172A?style=for-the-badge&logo=github&logoColor=14B8A6"></a>
+<a href="https://www.linkedin.com/in/jayantbhatiaa"><img src="https://img.shields.io/badge/LinkedIn-Connect-0F172A?style=for-the-badge&logo=linkedin&logoColor=14B8A6"></a>
+<a href="mailto:jayantbhatia44@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0F172A?style=for-the-badge&logo=gmail&logoColor=14B8A6"></a>
 
-### Open to opportunities in AI Engineering & Backend Engineering
-
-<br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-jayant132-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jayant132)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayantbhatiaa)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jayantbhatia44@gmail.com)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14B8A6,100:0F172A&height=100&section=footer" width="100%"/>
 
 </div>
